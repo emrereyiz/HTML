@@ -39,13 +39,21 @@ var modalTab = function(){
         $(".tabContent").hide();
         $(".tabContent").eq(_index).show();
     });
-    $(".chartTab li").click(function(){
-        $(".chartTab li ").removeClass("active");
+    $(".summonersData .chartTab li").click(function(){
+        $(".summonersData .chartTab li ").removeClass("active");
         $(this).addClass("active");
 
         var _index = $(this).index();
-        $(".chartContItem").hide();
-        $(".chartContItem").eq(_index).show();
+        $(".summonersData .chartContItem").hide();
+        $(".summonersData .chartContItem").eq(_index).show();
+    });
+    $(".teamData .chartTab li").click(function(){
+        $(".teamData .chartTab li ").removeClass("active");
+        $(this).addClass("active");
+
+        var _index = $(this).index();
+        $(".teamData .chartContItem").hide();
+        $(".teamData .chartContItem").eq(_index).show();
     });
 };
 
@@ -302,9 +310,6 @@ var chart01 = function() {
     });
 }
 var chart02 = function(){
-//chartGold
-//chartExp
-//chartCS
     $('.chartGold').highcharts({
         chart: {
             backgroundColor: '#141415',
@@ -456,6 +461,233 @@ var chart02 = function(){
         }
     });
     $('.chartCS').highcharts({
+        chart: {
+            backgroundColor: '#141415',
+            height: 200,
+            type: 'spline',
+            width: 730
+        },
+        xAxis: {
+            categories: ['0m', '5m', '10m', '15m', '20m', '25m'],
+            tickLength: 20,
+            labels: {
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }                
+            },
+           tickLength: 0,
+           lineWidth: 0,
+           minorGridLineWidth: 0,
+        },
+        yAxis: {
+            gridLineColor: '#696f7a',
+            title: {
+                enabled: true,
+                text: 'Total Gold',
+                style: {
+                    fontWeight: 'normal'
+                }
+            },
+            labels: {
+                format: '{value}k',
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }
+            }
+        },
+        series: [{
+            name: 'Vayne',
+            data: [1, 5, 10, 15, 20, 25],
+            color: '#8e44ad',
+            lineWidth: 2,
+
+        }, {
+            name: 'Janna',
+            data: [1, 2, 3, 4, 5, 6],
+            color: '#2980b9',
+            lineWidth: 2,
+        }],
+        credits: {
+              enabled: false
+        },
+        plotOptions: {
+            spline: {
+                lineWidth: 4,
+                states: {
+                    hover: {
+                        lineWidth: 5
+                    }
+                },
+                marker: {
+                    enabled: false
+                },
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        title:{
+            text:''
+        },
+        exporting: {
+            enabled: false
+        }
+    });
+};
+var chart03 = function(){
+    $('.chartTeamGold').highcharts({
+        chart: {
+            backgroundColor: '#141415',
+            height: 200,
+            type: 'spline',
+            width: 730
+        },
+        xAxis: {
+            categories: ['0m', '5m', '10m', '15m', '20m', '25m'],
+            tickLength: 20,
+            labels: {
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }                
+            },
+           tickLength: 0,
+           lineWidth: 0,
+           minorGridLineWidth: 0,
+        },
+        yAxis: {
+            gridLineColor: '#696f7a',
+            title: {
+                enabled: true,
+                text: 'Total Gold',
+                style: {
+                    fontWeight: 'normal'
+                }
+            },
+            labels: {
+                format: '{value}k',
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }
+            }
+        },
+        series: [{
+            name: 'Vayne',
+            data: [1, 5, 10, 15, 20, 25],
+            color: '#02b473',
+            lineWidth: 2,
+
+        }, {
+            name: 'Janna',
+            data: [1, 2, 3, 4, 5, 6],
+            color: '#c16a04',
+            lineWidth: 2,
+        }],
+        credits: {
+              enabled: false
+        },
+        plotOptions: {
+            spline: {
+                lineWidth: 4,
+                states: {
+                    hover: {
+                        lineWidth: 5
+                    }
+                },
+                marker: {
+                    enabled: false
+                },
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        title:{
+            text:''
+        },
+        exporting: {
+            enabled: false
+        }
+    });
+    $('.chartTeamAdvantage').highcharts({
+        chart: {
+            backgroundColor: '#141415',
+            height: 200,
+            type: 'spline',
+            width: 730
+        },
+        xAxis: {
+            categories: ['0m', '5m', '10m', '15m', '20m', '25m'],
+            tickLength: 20,
+            labels: {
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }                
+            },
+           tickLength: 0,
+           lineWidth: 0,
+           minorGridLineWidth: 0,
+        },
+        yAxis: {
+            gridLineColor: '#696f7a',
+            title: {
+                enabled: true,
+                text: 'Total Gold',
+                style: {
+                    fontWeight: 'normal'
+                }
+            },
+            labels: {
+                format: '{value}k',
+                style: {
+                    color: '#696f7a',
+                    font: '13.7px GothamLight'
+                }
+            }
+        },
+        series: [{
+            name: 'Vayne',
+            data: [1, 5, 10, 15, 20, 25],
+            color: '#2980b9',
+            lineWidth: 2,
+
+        }, {
+            name: 'Janna',
+            data: [1, 2, 3, 4, 5, 6],
+            color: '#8e44ad',
+            lineWidth: 2,
+        }],
+        credits: {
+              enabled: false
+        },
+        plotOptions: {
+            spline: {
+                lineWidth: 4,
+                states: {
+                    hover: {
+                        lineWidth: 5
+                    }
+                },
+                marker: {
+                    enabled: false
+                },
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        title:{
+            text:''
+        },
+        exporting: {
+            enabled: false
+        }
+    });
+    $('.chartTotalKills').highcharts({
         chart: {
             backgroundColor: '#141415',
             height: 200,
@@ -1102,6 +1334,7 @@ $(document).ready(function() {
     multiSearchFunc();
     chart01();
     chart02();
+    chart03();
     detailViewFunc();
     detailModalFunc();
     fullPageAnimate();
