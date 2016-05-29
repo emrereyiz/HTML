@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>League Of Legends</title>
+	<link rel="stylesheet" type="text/css" href="css/sub.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+	<script type="text/javascript" src="js/plugin/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/owl.carousel.min.js"></script>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>-->
+	<script type="text/javascript" src="js/plugin/select2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="http://rocha.la/misc/jsdemos/slimScroll/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<!-- wrapper start -->
+	<div id="wrapper" class="siteW">
+		<!-- header start -->
+		<header>
+			<!-- nav start -->
+			<nav>
+				<!-- list start -->
+				<ul class="list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="multisearch.html" class="active">Multi-Search</a></li>
+					<!-- sub menu -->
+					<li class="hasList">
+						<a href="chart-detail.html">Statistics</a>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<ul>
+							<li><a href="champion-statistics.html">Champion Statistics</a></li>
+							<li><a href="leaderboards.html">Leaderboards</a></li>
+						</ul
+					</li>
+					<li><a href="champ-detail.html">Pro Spectate</a></li>
+				</ul>	
+			</nav>
+			<!-- logo start -->
+			<a id="logo" href="index.html">
+				<span>lol</span>
+				<strong>League</strong>Of<strong>Legends</strong>
+			</a>
+			<!-- topLang start -->
+			<div class="topLang fr">
+				<div class="listArea customSelect">
+					<span class="listText">English</span>
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<div class="listItems">
+							<span class="listItem">Turkish</span>
+							<span class="listItem">English</span>
+						</div>
+				</div>
+			</div>
+		</header>
+		<div class="clr"></div>
+		<!-- content start -->
+		<div id="content" class="multi-search">
+			<!-- championSearch start -->
+			<div id="championSearch">
+				<div class="lineTitle">
+					<h3>Multi-Search</h3>
+					<span></span>
+				</div>
+				<section class="search-collapser clr">
+					<span class="info">If you paste the content from champion select chat, you can view a summary of all summoners in the game!</span>
+					<textarea class="input" name="championsearch" id="championsearch" value="Search a Summoner Name">
+					</textarea>	
+					<div class="btn-group">
+						<button type="button" class="btn btn-search btn-dark"></button>
+						<div class="btn btn-how-to-use btn-dark">
+							How to use?
+						</div>
+					</div>
+				</section>
+				<section class="how-to-use">
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+					<div class="title">
+						<h2>How to use?</h2>
+						<p>
+							Once in champion select, copy and paste the content from chat into Multi-Search.
+						</p>
+					</div>
+						<img src="img/how-to-use-content-bg.png" alt="">
+				</section>
+
+			</div>
+			<div class="clr"></div>
+
+			<div class="search-result">
+				<div class="lineTitle">
+					<h3>Search Result</h3>
+					<span></span>
+				</div>
+
+				<!-- search-result-item -->
+				<div class="search-result-item clr">
+					<div class="user-info basic-info">
+						<h4>Escaper JKC</h4>
+						<div class="last-games-win-rate">
+							<h6>
+								Last 10 Solo queue games
+								<span>
+									( Win Rate 40 % )
+								</span>
+							</h6>
+							<ul class="win-lost-rate-graph clr">
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+								</li>
+							</ul>
+							<div class="btn-group">
+								<a href="#" class="btn btn-green">3 Win Streak</a>
+								<div class="btn-list">
+									<a href="#" class="btn">S3</a>
+									<a href="#" class="btn">S4</a>
+									<a href="#" class="btn">S5</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="user-info all-ranked text-center">
+						<h6>
+							All Ranked Games
+							<div class="ranked-info">
+								<span class="win">8W</span>
+								-
+								<span class="lose">22L</span>
+								<span class="percent">(27%)</span>
+							</div>
+						</h6>
+						<img src="img/user-rank.png" alt="">
+						<p class="text-right dark-text">
+							43LP
+						</p>
+						<h4>
+							SILVER III
+						</h4>
+					</div>
+					
+					<div class="rateBox fr">
+						<div class="lineTitle subTitle">
+							<h4>Recently Played</h4>
+							<span></span>
+						</div>
+						<div class="listArea customSelect">
+							<span class="listText">Season 6</span>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<div class="listItems">
+								<span class="listItem">Season 6</span>
+								<span class="listItem">Season 5</span>
+								<span class="listItem">Season 4</span>
+								<span class="listItem">Season 3</span>
+								<span class="listItem">Season 2</span>
+								<span class="listItem">Season 1</span>
+							</div>
+						</div>
+						<div id="rateTable" class="rateTable resultTable">
+							<table>
+							  <thead>
+							    <tr>
+							      <td>Champions<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Played<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Win<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Lose<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Win Ratio<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							    </tr>
+							  </thead>
+							  <tbody>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+							  </tbody>
+							</table>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- search-result-item -->
+				<div class="search-result-item clr">
+					<div class="user-info basic-info">
+						<h4>Envy JKC</h4>
+						<div class="last-games-win-rate">
+							<h6>
+								Last 10 Solo queue games
+								<span>
+									( Win Rate 38 % )
+								</span>
+							</h6>
+							<ul class="win-lost-rate-graph clr">
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="win"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+									<i class="fa fa-angle-right"></i>
+								</li>
+								<li>
+									<span class="lose"></span>
+								</li>
+							</ul>
+							<div class="btn-group">
+								<a href="#" class="btn btn-green">2 Win Streak</a>
+								<div class="btn-list">
+									<a href="#" class="btn">S3</a>
+									<a href="#" class="btn">S4</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="user-info all-ranked text-center">
+						<h6>
+							All Ranked Games
+							<div class="ranked-info">
+								<span class="win">8W</span>
+								-
+								<span class="lose">22L</span>
+								<span class="percent">(27%)</span>
+							</div>
+						</h6>
+						<img src="img/user-rank.png" alt="">
+						<p class="text-right dark-text">
+							43LP
+						</p>
+						<h4>
+							SILVER III
+						</h4>
+					</div>
+					
+					<div class="rateBox fr">
+						<div class="lineTitle subTitle">
+							<h4>Recently Played</h4>
+							<span></span>
+						</div>
+						<div class="listArea customSelect">
+							<span class="listText">Season 6</span>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<div class="listItems">
+								<span class="listItem">Season 6</span>
+								<span class="listItem">Season 5</span>
+								<span class="listItem">Season 4</span>
+								<span class="listItem">Season 3</span>
+								<span class="listItem">Season 2</span>
+								<span class="listItem">Season 1</span>
+							</div>
+						</div>
+						<div id="rateTable" class="rateTable resultTable">
+							<table>
+							  <thead>
+							    <tr>
+							      <td>Champions<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Played<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Win<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Lose<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							      <td>Win Ratio<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							    </tr>
+							  </thead>
+							  <tbody>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+	  							<tr>
+									<td>Zed</td>
+									<td>24</td>
+									<td>20</td>
+									<td>4</td>
+									<td>%96</td>
+								</tr>
+							  </tbody>
+							</table>
+
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="clr"></div>
+        <!-- footer start -->
+        <footer>
+        	<div class="siteW">
+	                <span class="copyRight fl">
+	                    &copy; 2012-2016 <strong>LeagueOfLegends</strong> Data based on League of legends Turkey.
+	                </span>
+	                <nav>
+	                    <ul class="list fr">
+	                        <li><a href="#">About Us</a></li>
+	                        <li><a href="#" class="showContactModal">Contact</a></li>
+	                    </ul>
+	                </nav>
+	        </div>
+        </footer>
+	</div>
+</body>
+</html>

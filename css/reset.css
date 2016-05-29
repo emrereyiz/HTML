@@ -1,0 +1,57 @@
+section, article{height: 100%;}
+section {}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display: block;}
+strong{font-family:GothamBold}
+.siteW{width:1170px !important;margin:0 auto !important; position: relative !important;}
+.w160{width:160px !important;}
+.fl{float:left!important}
+.fr{float:right!important}
+.clr{clear:both!important}
+.clr:after{content:"";display:block;width:0;height:0;clear:both!important}
+.abs{position:absolute!important}
+.mb{margin-bottom:0!important}
+.mt{margin-top:0!important}
+.ml{margin-left:0!important}
+.mr{margin-right:0!important}
+.pb{padding-bottom:0!important}
+.pt{padding-top:0!important}
+.pl{padding-left:0!important}
+.pr{padding-right:0!important}
+.ma{margin: 0 auto !important; float: none !important;}
+.dib{display: inline-block;}
+.posRel{position: relative !important;}
+html,body{width:100%;height:100%}
+body :focus{outline:0!important}
+a{border:none;text-decoration:none;color:#fff;transition:.2s}
+ul,h1,h2,h3,h4,h5,h6{padding:0;margin:0;font-weight:400}
+li{list-style:none}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-left{text-align:left!important}
+.margin-zero{margin:0!important}
+.dark-text{color:#696f7a}
+.btn{border:Solid 1px #60656f;padding:2px;margin:0 4px;border-radius:9px;display:inline-block;transition:.2s;text-align:center}
+.btn:hover{background-color:#60656f;color:#fff}
+.btn.btn-green{border-color:#2ecc71;color:#2ecc71;font-size:12px}
+.btn.btn-green:hover{background-color:#2ecc71;color:#fff;border-color:#fff}
+h4{color:#aaafb7;font-size:20px;font-family:'GothamBold'}
+.pull-left{width:50%;float:left}
+.pull-right{width:50%;float:right}
+::selection {
+  background: #22ddbc; /* WebKit/Blink Browsers */
+}
+table{border-collapse: collapse;}
+
+
+@media(max-width:767px){
+    .siteW{width:737px !important;}
+}
+@media(min-width:768px){
+    .siteW{width:738px !important;}
+}
+@media(min-width:992px){
+    .siteW{width:962px !important;}
+}
+@media(min-width:1200px){
+    .siteW{width:1170px !important;}
+}

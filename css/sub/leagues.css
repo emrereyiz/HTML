@@ -1,0 +1,98 @@
+#leaguesContent #championStats tbody td{border-bottom:solid 1px #373a40;}
+#leaguesContent .rateTable .rateChampion{ float: left; width:220px;}
+#leaguesContent .rateTable .rateChampion span{margin:15px 0 0 0;}
+
+#leaguesContent .rateTable .rateEmblems{ text-align: center;}
+#leaguesContent .rateTable .rateEmblems ul{margin:0 auto;display: inline-block;}
+#leaguesContent .rateTable .rateEmblems ul li{float:left;margin:0 10px 0 0;cursor:pointer}
+#leaguesContent .rateTable .rateEmblems ul li span{background-image:url(../../img/emblems.png);background-repeat:no-repeat;background-position:top left;width:18px;height:20px;display:inline-block;padding:0}
+#leaguesContent .rateTable .rateEmblems ul li span.emblem02{background-position:top 0 left -27px;width:13px}
+#leaguesContent .rateTable .rateEmblems ul li span.emblem03{background-position:top 0 left -50px;width:22px}
+#leaguesContent .rateTable .rateEmblems ul li span.emblem01:hover{background-position:top -31px left 0}
+#leaguesContent .rateTable .rateEmblems ul li span.emblem02:hover{background-position:top -31px left -27px}
+#leaguesContent .rateTable .rateEmblems ul li span.emblem03:hover{background-position:top -31px left -50px}
+
+#leaguesContent .rateTable .rateSeries{}
+#leaguesContent .rateTable .rateVictory{}
+#leaguesContent .rateTable .rateVictory span.win{color:#2ecc71;float:none;font-family:'GothamLight'}
+#leaguesContent .rateTable .rateVictory span.love{color:#e74c3c;float:none;font-family:'GothamLight'}
+#leaguesContent .rateTable .promotionSeries{display: inline-block;}
+#leaguesContent .rateTable .promotionSeries ul{margin: 0 auto;}
+#leaguesContent .rateTable .promotionSeries ul li{float:left;margin:0 8px 0 0}
+#leaguesContent .rateTable .promotionSeries ul li span{width:16px;height:16px;display:inline-block;border-radius:60px;padding:0}
+#leaguesContent .rateTable .promotionSeries ul li span.red{background-color:#9a3e3a}
+#leaguesContent .rateTable .promotionSeries ul li span.green{background:#288b57}
+#leaguesContent .rateTable .promotionSeries ul li span.black{background:#1d1d1e}
+#leaguesContent tbody tr:hover{background-color:#28282a; color:#fff;}
+
+
+/*
+#content #leaguesContent #championStats{margin:40px 0 0 0;}
+#content #leaguesContent #championStats .statTableContent .statTable span.rateID{margin:0 0 0 26px}
+#content #leaguesContent #championStats .statTableContent .statTable span.rateSummoners{width:285px;margin-left:52px;background-position-x:186px}
+#content #leaguesContent #championStats .statTableContent .statTable span.rateEmblems{width:142px;margin-left:0;background-position-x:105px}
+#content #leaguesContent #championStats .statTableContent .statTable span.rateVictory{width:282px;margin-left:0;background-position-x:168px}
+#content #leaguesContent #championStats .statTableContent .statTable span.ratePromotions{width:267px;margin-left:0;background-position-x:270px;text-align:right;padding-right:15px}
+#content #leaguesContent #championStats .statTableContent .statTable .rateContent .rateRow div.rateChampion span{width:177px}
+#content #leaguesContent #championStats .statTableContent .statTable span .rateEmblems{margin:12px 0 0 123px;float:left}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .rateEmblems{float:left;margin:10px 0 0 98px}
+
+#content #leaguesContent #championStats .statTableContent .statTable .rateSeries{float:left;margin:0 0 0 291px}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .rateVictory{float:left;margin:10px 0 0 143px;font-size:17px}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .rateVictory span.win{color:#2ecc71;float:none;font-family:'GothamLight'}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .rateVictory span.love{color:#e74c3c;float:none;font-family:'GothamLight'}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries{float:left;margin:10px 0 0 270px}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries li{float:left;margin:0 8px 0 0}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries li span{width:16px;height:16px;display:inline-block;border-radius:60px;padding:0}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries li span.red{background-color:#9a3e3a}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries li span.green{background:#288b57}
+#content #leaguesContent #championStats .statTableContent .statTable .rateRow .promotionSeries li span.black{background:#1d1d1e}
+
+
+*/
+
+
+				#content #championStats .statTableContent .statTable span,
+				#content #championStats .statTableContent .statTable .rateWin,
+				#content #championStats .statTableContent .statTable .rateChampion{float: left;}
+				#content #championStats .statTableContent .statTable .rateChampion img{ border-radius: 100%;}
+
+				#content #championStats .statTableContent .statTable span{padding: 12px 0;}
+				#content #championStats .statTableContent .statTable span.rateID{width: 24px;margin-left: 30px;background-position-x: 21px;}
+				#content #championStats .statTableContent .statTable span.rateChampion{width: 262px;margin-left: 46px;background-position-x: 164px;}
+				#content #championStats .statTableContent .statTable span.rateWin{width: 150px;margin-left: 53px;background-position-x: 105px;}
+				#content #championStats .statTableContent .statTable span.ratePlayed{width: 97px;margin-left: 59px;background-position-x: 94px;}
+				#content #championStats .statTableContent .statTable span.rateKDA{width: 42px;margin-left: 64px;background-position-x: 36px;}
+				#content #championStats .statTableContent .statTable span.rateCS{width: 54px;margin-left: 65px;background-position-x: 38px;}
+				#content #championStats .statTableContent .statTable span.rateGold{width: 51px;margin-left: 48px;background-position-x: 43px;}
+
+
+				span.ratePromotions.sort {}
+
+				#content #championStats .statTableContent .statTable .rateContent .rateRow {width: 100%;display: inline-block;border-bottom: solid 1px #373a40;padding: 12px 0; float: left}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span{font-family: 'GothamMedium';}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span.rateID{}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateChampion{ margin-left: 61px; }
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateChampion span{width: 147px;}
+
+				#content #championStats .statTableContent .statTable .rateContent .rateRow:hover{background-color:#28282a; color:#fff;}
+
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin{display: inline-block;width:150px;margin: 15px 0 0 123px;}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin .champBar{}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin .champBar .rateCont{}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin .champBar .rateCont .rateBar{}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin .champBar .rateCont .rateBarBg{}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow div.rateWin .champBar strong.rateVal{ font-family: 'GothamBook';font-size: 11px; margin:3px 0 0 0;}
+
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span.ratePlayed{margin-left: 62px;}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span.rateKDA{margin-left: 72px;}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span.rateCS{margin-left: 72px;color: #2ecc71;}
+				#content #championStats .statTableContent .statTable .rateContent .rateRow span.rateGold{color: #e67e22;}
+
+				#content #championStats .statTableContent .statTable .pagination{display: inline-block; margin: 20px 0}
+				#content #championStats .statTableContent .statTable ul.pagination{font-size: 12px;float: right;}
+				#content #championStats .statTableContent .statTable ul.pagination li{display: inline-block;}
+				#content #championStats .statTableContent .statTable ul.pagination li a{color: #696f7a; border:Solid 1px #60656f;padding: 2px; margin: 0 4px; border-radius: 3px; display: inline-block; width: 19px;}
+				#content #championStats .statTableContent .statTable ul.pagination li a:hover, #content #championRate #championStats .statTableContent .statTable ul.pagination li.active a{background-color: #60656f; color: #fff;}
+
+

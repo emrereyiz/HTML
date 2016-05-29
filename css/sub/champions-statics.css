@@ -1,0 +1,23 @@
+#content #championRate #championStats{margin:10px 0 0}
+#content #championRate #championStats .lineTitle{width:100%}
+#content #championRate #championStats .statFilter{margin:45px 0 0;font-family:'GothamMedium'; height: 180px; overflow: hidden;}
+.statFilter .filterItem{display:inline-block;color:#696f7a;font-size:14px;width:226px;overflow:hidden;margin-left:5px}
+.statFilter .filterItem h4{ font-size:17px; }
+.statFilter .filterItem:first-child{margin-left:0}
+.statFilter .filterItem ul{height:125px !important;display:inline-block;position:relative;width:100%;overflow-y:scroll;}
+.statFilter .filterItem ul li{padding:5px 0;cursor: pointer;}
+.statFilter .filterItem ul li:hover{color:#22ddbc}
+.statFilter .filterItem .subTitle{margin-bottom: 5px;}
+
+#championRate .rateWin{margin: 0 15px 0 0 !important;}
+#championRate .rateCont{width:114px;}
+#championRate .champBar{width:180px !important;}
+#championRate .rateChampion{width:150px; margin:0 0 0 30px;}
+#championRate .rateChampion span{margin:15px 0 0 0;}
+#championRate .rateVal{margin:0 20px 0 0 !important; font-family: 'GothamBook' !important; font-size:12.27px !important;}
+
+
+#content .statTableContent{}
+#content .statTableContent .rateTable{border:solid 1px #696f7a;border-left:none;border-right: none;border-bottom: none;margin:20px 0 0 0;}
+#content .statTableContent .rateTable .rateTitle{padding: 11px 0 13px 0;}
+#content .statTableContent .rateTable tbody{font-size:17px; font-family: 'GothamMedium';}

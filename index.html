@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>League Of Legends</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/font-awesome.min.css">
+	<script type="text/javascript" src="js/plugin/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/select2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="http://rocha.la/misc/jsdemos/slimScroll/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<!-- wrapper start -->
+	<div id="wrapper" class="siteW">
+		<!-- header start -->
+		<header>
+			<!-- nav start -->
+			<nav>
+				<!-- list start -->
+				<ul class="list">
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="multisearch.html">Multi-Search</a></li>
+					<!-- sub menu -->
+					<li class="hasList">
+						<a href="chart-detail.html">Statistics</a>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<ul>
+							<li><a href="champion-statistics.html">Champion Statistics</a></li>
+							<li><a href="leaderboards.html">Leaderboards</a></li>
+						</ul
+					</li>
+					<li><a href="champ-detail.html">Pro Spectate</a></li>
+				</ul>
+			</nav>
+			<!-- logo start -->
+			<a id="logo" href="index.html">
+				<span>lol</span>
+				<strong>League</strong>Of<strong>Legends</strong>
+			</a>
+			<!-- topLang start -->
+			<div class="topLang fr">
+				<div class="listArea customSelect">
+					<span class="listText">English</span>
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<div class="listItems">
+							<span class="listItem">Turkish</span>
+							<span class="listItem">English</span>
+						</div>
+				</div>
+			</div>
+		</header>
+		<div class="clr"></div>
+		<!-- content start -->
+		<div id="content">
+			<div class="region">
+				<div class="regionSelect fr">
+					<div class="listArea customSelect">
+						<span class="listText">Turkey</span>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+
+						<div class="listItems">
+							<span class="listItem">Turkey</span>
+							<span class="listItem">Brazil</span>
+							<span class="listItem">EUNE</span>
+							<span class="listItem">EUW</span>
+							<span class="listItem">LAN</span>
+							<span class="listItem">LAS</span>
+							<span class="listItem">NA</span>
+							<span class="listItem">United States</span>
+							<span class="listItem">OCE</span>
+							<span class="listItem">RU</span>
+							<span class="listItem">South East</span>
+							<span class="listItem">Republic of Korea</span>
+							<span class="listItem">Public Beta Environment</span>
+						</div>
+					</div>
+				</div>
+				<span class="fr">Select the region</span>
+			</div>
+			<div class="clr"></div>
+			<div class="champSearch">
+				<input type="text" value="Enter the Summoner's name" maxlength="20" />
+			</div>
+			<span class="mainInfo">Your league of legends ID</span>
+			<span class="newsLetter" href="#">JOIN NEWSLETTER</span>
+		</div>
+		<div class="clr"></div>
+		<!-- footer start -->
+		<footer>
+			<span class="copyRight fl">
+				&copy; 2012-2016 <strong>LeagueOfLegends</strong> Data based on League of legends Turkey.
+			</span>
+			<nav>
+				<ul class="list fr">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#" class="showContactModal">Contact</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+
+<div id="modalOverlay"></div>
+<div id="modal" class="newsLetterModal">
+	<div class="modalContent">
+		<img src="img/modal-master-yi.png" class="abs">
+		<div class="modalText">
+			<span class="modalClose"></span>
+			<h3>JOIN OUR<br/> NEWSLETTER</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+			<input type="text" value="Enter your e-mail address">
+			<span class="inputBorder"></span>
+			<button id="modalButton">SIGN UP</button>
+		</div>
+	</div>
+</div>
+<div id="modal" class="contactModal">
+	<div class="modalContent">
+		<img src="img/modal-kha-zix.png" class="abs">
+		<div class="modalText">
+			<span class="modalClose"></span>
+			<h3>CONTACT US</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+			<div class="twoCol">
+				<div class="inputWrap fl">
+					<input type="text" value="Name" id="Name" name="Name" />
+					<span class="inputBorder"></span>
+				</div>
+				<div class="inputWrap fl">
+					<input type="text" value="Email" id="Email" name="Email" />
+					<span class="inputBorder"></span>
+				</div>
+				<textarea></textarea>
+				<span class="inputBorder"></span>
+			</div>
+			<button id="modalButton">SIGN UP</button>
+			<strong class="fl validC">There was an error trying to send your message. </strong>
+		</div>
+	</div>
+</div>
+</body>
+</html>

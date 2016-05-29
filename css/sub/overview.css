@@ -1,0 +1,65 @@
+.row-left {
+    width: 750px;
+    float: left;
+    margin: 0 0 40px 0;
+}
+ .row-right {
+    width: 375px;
+    float: right;
+}
+
+.champion-statics-row .rateBox{width:370px;}
+.champion-statics-row .rateBox .itemTable{width:100%;}
+
+
+.pageOverview .abilities-table {width: 750px;background-image: url('../../img/skills-bg.png');background-position: top 47px left 42px;background-repeat: no-repeat;}
+
+.pageOverview .abilities-table thead tr td {font-size: 14.5px;}
+
+.pageOverview .abilities-table td {text-align: right;width: 37px;color: #696f7a;font-size: 18.5px;font-family: 'GothamBook';position: relative;}
+
+.pageOverview .abilities-table thead td {
+    text-align: center !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.pageOverview .abilities-table tbody td:first-child,
+.pageOverview .abilities-table thead tr td {
+    border: none;
+    padding: 7px 10px;
+}
+
+.pageOverview .abilities-table tbody td:first-child {
+    text-align: center;
+}
+
+.pageOverview .abilities-table td img {
+    /* margin-right: 6px; */
+    /* margin-top: 10px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 3px 0px 0 6px;
+    width: 25px;
+    height: 26px;
+}
+
+.twoBox{float: right; width:370px;}
+.twoBox .rateBox{margin:0 0 20px 0; float: right;}
+.twoBox .slimScrollDiv {height:100px !important;}
+
+.rank-state-list{float: left; margin:40px 0 20px 0}
+.rank-state-list img{width: 45px;height: 45px;float: left;}
+
+.rank-state-list .fa{font-size: 25px;color: #fff;display: block;margin: 12px 11px;float: left;}
+
+.pageOverview .rankStateRight{float: right; font-family: 'GothamLight'; font-size: 11.32px; color: #696f7a;}
+.pageOverview .rankStateRight .rankItem{margin:0 0 0 50px; width: 103px;}
+
+
+.pageOverview .rankStateRight .text{float: left;}
+.pageOverview .rankStateRight .rateVal{float: right;}
+.pageOverview .rankStateRight .rateCont{position: relative;border-radius: 5px; overflow: hidden; width: 103px; height: 11px; margin:50px 0 5px 0;}
+.pageOverview .rankStateRight .rateCont .rateBar{position: absolute;left: 0; top: 0; width: 0; height: 100%;  transition:1s;}
+.pageOverview .rankStateRight .rateCont .rateBg{width:100%; height: 100%; display: inline-block; background-color: #181818 !important;}

@@ -1,0 +1,81 @@
+/* plugin edit */
+	/* select 2 */
+		/* standart select */
+		.select2-container--default .select2-selection--single, .select2-results{background-color:transparent !important; font-size: 13px; border-radius: 7px !important;}
+		.select2-selection{height:36px !important;}
+		.select2-container--default .select2-selection--single .select2-selection__rendered{ color:#dfe3ec !important; line-height: 34px !important; padding-left: 14px !important}
+		.select2-container--default .select2-selection--single .select2-selection__arrow b{background-image:url('../img/selectBg.png') !important;background-color: transparent !important;border: none !important;width: 10px !important;height: 5px !important;background-position: 0 !important; margin-left: -13px !important;}
+		.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{background-position: -21px 0 !important;}
+		.select2-container--default .select2-selection--single .select2-selection__arrow{height: 32px !important;}
+		.select2-dropdown{background-color: transparent !important; color: #fff !important}
+		.select2-results__option{padding-left: 14px !important;}
+		.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option[aria-selected=true]{background-color:  transparent !important;}
+		.select2-container--open .select2-selection--single{border-bottom:none !important;}
+		/*
+			custom select start
+			*region select
+		 */
+		 	.regionSelect .select2-container--default .select2-selection--single, .regionSelect .select2-results{font-size:15px !important; border:none !important; font-family: GothamBold;}
+			.regionSelect .select2-selection{height:28px !important;}
+			.regionSelect .select2-container--default .select2-selection--single .select2-selection__rendered{ line-height: normal !important; padding-left: 0 !important; padding-right: 17px;}
+			.regionSelect .select2-container--default .select2-selection--single .select2-selection__arrow{height: 15px !important;}
+			.regionSelect .select2-container .select2-selection--single{height: auto !important}
+			.regionSelect .select2-dropdown{width:70px !important;}
+			.regionSelect .select2-container--default .select2-selection--single .select2-selection__arrow b{background-image:url('../img/regionSelectBg.png') !important; height: 6px !important; margin-left: -10px !important;}
+			.regionSelect .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{background-position: -18px 0 !important;}
+
+		.regionContent .select2-dropdown{}
+		.regionContent .select2-dropdown{width:160px !important;}
+		.regionContent .select2-dropdown ul.select2-results__options{background-color: rgba(54, 63, 80, 0.75) !important;}
+
+		/* rune page */
+		.detailContent #detailBottom #runeContent #runeLeft span.select2-container,
+		.detailContent #detailBottom #masteriesContent span.select2-container{width:127px !important; margin:0 0 0 15px;}
+		.detailContent #detailBottom #runeContent #runeLeft span.select2-selection__rendered,
+		.detailContent #detailBottom #masteriesContent span.select2-selection__rendered{font-family: 'GothamBook' !important; font-size: 14.15px !important;}
+		/* leader boards page */
+		#content .master-ranks-list .master-ranks-list-item ._jsleagueSelect{height: 11px !important; position: absolute !important; width:92px !important; margin:1px 0 0 0 !important; left:inherit; right:0; top: 0;}
+		#content .master-ranks-list ._jsleagueSelect,
+		#content .master-ranks-list ._jsleagueSelect > span{position:relative !important; background: none !important; margin:0 !important;}
+		#content .master-ranks-list ._jsleagueSelect span.selection{margin:0 !important;}
+		#content .master-ranks-list ._jsleagueSelect .select2-selection--single, ._jsleagueSelect .select2-results{font-size:15px !important; border:none !important; font-family: GothamBold;}
+		#content .master-ranks-list ._jsleagueSelect .select2-selection--single .select2-selection__rendered{width:55px !important; height: 23px !important; background:none !important; color:#00f9d4 !important; font-family: 'GothamBook'; font-size:11px;}
+		#content .master-ranks-list ._jsleagueSelect .select2-selection--single .select2-selection__arrow{height: 15px !important; background:none !important;}
+		#content .master-ranks-list ._jsleagueSelect .select2-selection--single .select2-selection__arrow b{margin:-5px 0 0 40px !important;background-image:url('../img/selectBgBlue.png') !important;background-color: transparent !important; width: 9px !important;}
+		#content .master-ranks-list ._jsleagueSelect .select2-selection--single{height: 11px !important; position: static !important;}
+		/* multi search page */
+		#content .search-result .lineTitle span._jsleagueSelect{height: 11px !important; position: absolute !important; width:92px !important; margin:1px 0 0 0 !important; left:inherit; right:0; top: 0;}
+		#content.multi-search ._jsleagueSelect,
+		#content.multi-search ._jsleagueSelect > span{position:relative !important; background: none !important; margin:0 !important;}
+		#content.multi-search ._jsleagueSelect span.selection{margin:0 !important;}
+		#content.multi-search ._jsleagueSelect .select2-selection--single, #content.multi-search ._jsleagueSelect .select2-results{font-size:15px !important; border:none !important; font-family: GothamBold;}
+		#content.multi-search ._jsleagueSelect .select2-selection--single .select2-selection__rendered{width:55px !important; height: 23px !important; background:none !important; color:#00f9d4 !important; font-family: 'GothamBook'; font-size:11px;}
+		#content.multi-search ._jsleagueSelect .select2-selection--single .select2-selection__arrow{height: 15px !important; background:none !important;}
+		#content.multi-search ._jsleagueSelect .select2-selection--single .select2-selection__arrow b{margin:-5px 0 0 40px !important;background-image:url('../img/selectBgBlue.png') !important;background-color: transparent !important; width: 9px !important;}
+		#content.multi-search ._jsleagueSelect .select2-selection--single{height: 11px !important; position: static !important;}
+
+	/* owl carousel */
+		/* champion slide */
+		.owl-carousel .owl-stage-outer{}
+		.owl-controls{position: absolute; width: 100%; z-index: 1; top: 0; margin:50px 0 0 0;}
+		.owl-controls .owl-nav{}
+		.owl-controls .owl-nav .owl-prev, .owl-controls .owl-nav .owl-next{position: absolute; width:25px; height: 45px; font-size: 0px; background-image:url('../img/championSlideBg.png');background-repeat: no-repeat;}
+		.owl-controls .owl-nav .owl-prev{left:0; margin-left:-100px;}
+		.owl-controls .owl-nav .owl-next{right: 0;background-position: -27px 0; margin-right:-100px;}
+	/* scrollbar */
+	.slimScrollBar{background-color: #aaaeb7 !important;opacity: 1 !important;}
+		/* ban rate table */
+		.ps-container:hover>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y, .ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y{}
+		.ps-container.ps-active-x>.ps-scrollbar-x-rail, .ps-container.ps-active-y>.ps-scrollbar-y-rail{width:5px !important; }
+
+	/* Data Table */
+	.dataTables_length{display: none;}
+	.dataTables_paginate{width: 100%; font-family: 'GothamMedium'; font-size: 13.5px; text-transform: uppercase; border:solid 1px #696f7a; border-right:none; border-left:none; display: inline-block; padding:10px 15px 10px 0; text-align: right; box-sizing: border-box;}
+	.dataTables_paginate a{color: #696f7a; display: inline-block;border-radius:5px; border:Solid 1px #696f7a; padding: 5px 10px; margin:0 0 0 10px; cursor: pointer;}
+	.dataTables_paginate a:hover, .dataTables_paginate a.current{background: #696f7a; color: #fff;}
+	.dataTables_paginate a.disabled{opacity: 0.3;}
+	.dataTables_paginate .info{padding: 0; margin:5px 0 0 10px !important; font-family: 'GothamMedium' !important; font-size: 13px; color: #696f7a !important; text-transform:none; }
+	
+	/* highchart */
+	/*.highcharts-container rect{fill:none !important;}*/
+	.highcharts-markers path{}

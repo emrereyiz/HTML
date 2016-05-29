@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>League Of Legends</title>
+	<link rel="stylesheet" type="text/css" href="css/sub.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/plugin/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+	<script type="text/javascript" src="js/plugin/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/owl.carousel.min.js"></script>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>-->
+	<script type="text/javascript" src="js/plugin/select2.min.js"></script>
+	<script type="text/javascript" src="js/plugin/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="http://rocha.la/misc/jsdemos/slimScroll/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+        <!-- header start -->
+        <header>
+            <div class="siteW">
+                <!-- nav start -->
+                <nav>
+                    <!-- list start -->
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="multisearch.html">Multi-Search</a></li>
+                        <!-- sub menu -->
+                        <li class="hasList">
+                            <a href="chart-detail.html">Statistics</a>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <ul>
+                                <li><a href="champion-statistics.html">Champion Statistics</a></li>
+                                <li><a href="leaderboards.html">Leaderboards</a></li>
+                            </ul
+                        </li>
+                        <li><a href="champ-detail.html">Pro Spectate</a></li>
+                    </ul>
+                </nav>
+                <!-- logo start -->
+                <a id="logo" href="index.html">
+                    <body>
+                        <span><i class="icon-cloud-download icon-large"></i>lol</span>
+                        <strong>League</strong>Of<strong>Legends</strong>
+                    </a>
+                    <!-- topLang start -->
+                    <div class="topLang fr">
+                        <div class="listArea customSelect">
+                            <span class="listText">English</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <div class="listItems">
+                                <span class="listItem">Turkish</span>
+                                <span class="listItem">English</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <article id="content" class="siteW">
+        	
+			<!-- championSearch start -->
+			<section id="championSearch">
+				<div class="lineTitle subTitle">
+					<h3>Leaderboards</h3>
+					<span></span>
+				</div>
+				<span class="info">* There are currently 413,714 summoners in the Summoner’s rift</span>
+				<div class="clr"></div>
+				<input type="text" name="championsearch" id="championsearch" value="Search a Summoner Name">
+				<span class="info info-bottom">* Only displaying Summoners above BronzeRankings are updated live</span>
+				<ul class="championSlide">
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/zed.png">
+							<span class="champName">Zed</span>
+							<div class="champRole">
+								<span class="roleGreen">Turkey</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/katarina.png">
+							<span class="champName">Katarina</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/ahri.png">
+							<span class="champName">Ahri</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/leblanc.png">
+							<span class="champName">Leblanc</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/syndra.png">
+							<span class="champName">Syndra</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/diana.png">
+							<span class="champName">Diana</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/champ-image/110/talon.png">
+							<span class="champName">Talon</span>
+							<div class="champRole">
+								<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+                <div class="clr"></div>
+                <div class="posRel text-center">
+                    <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+			</section>
+			<section>
+			<!-- championRate start -->
+			<div id="championRate">			
+			<!-- championStats start -->
+			<div id="championStats">
+				<!-- statTableContent start -->
+				<div class="statTableContent">
+					<div id="statTable" class="rateTable leaderTable">
+					<table>
+						<thead>
+							<tr>
+								<td>ID <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>Summoner <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>Win Rate <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>Games played <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>LP <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>CS <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+								<td>Tier <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/kalista.png" class="fl">
+										<span class="fr">Kalista</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">100.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/diana.png" class="fl">
+										<span class="fr">Diana</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/lucian.png" class="fl">
+										<span class="fr">Lucian</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/vayne.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/cho-gath.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/kalista.png" class="fl">
+										<span class="fr">Kalista</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">100.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/diana.png" class="fl">
+										<span class="fr">Diana</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/lucian.png" class="fl">
+										<span class="fr">Lucian</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/vayne.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/cho-gath.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/kalista.png" class="fl">
+										<span class="fr">Kalista</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">100.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/diana.png" class="fl">
+										<span class="fr">Diana</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/lucian.png" class="fl">
+										<span class="fr">Lucian</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/vayne.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>
+									<div class="rateChampion">
+										<img src="img/champ-image/52/cho-gath.png" class="fl">
+										<span class="fr">Vayne</span>
+									</div>
+								</td>
+								<td>
+									<div class="rateWin">
+										<div class="champBar fr">
+											<div class="fl rateCont">
+												<span class="rateBar"></span>
+												<span class="rateBg"></span>
+											</div>
+											<strong class="fr rateVal">55.35%</strong>
+										</div>
+									</div>
+								</td>
+								<td>266,272</td>
+								<td>1024</td>
+								<td>190.87</td>
+								<td>Challenger</td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+					<div class="clr"></div>
+				</div>
+			</div>
+			</div>
+			<div class="clr"></div>
+			<div class="search master-rankiking">
+				<div class="lineTitle subTitle subTitle">
+					<h3>Champion Master's ranking</h3>
+					<span></span>
+				</div>
+				<input type="text" name="championsearch" id="championsearch" value="Search a Champion">
+				<span class="info info-bottom">* The rank tier is caclulated based on date of the top 50 diamond tier summoners.</span>
+			</div>
+
+
+
+			<div class="master-ranks-list">
+				<div class="rateBox ml">
+					<div class="lineTitle subTitle">
+						<h4><span class="lighter">Zed</span> Master’s Rank</h4>
+						<span></span>
+					</div>
+					<div class="listArea customSelect">
+						<span class="listText">Season 6</span>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<div class="listItems">
+							<span class="listItem">Season 6</span>
+							<span class="listItem">Season 5</span>
+							<span class="listItem">Season 4</span>
+							<span class="listItem">Season 3</span>
+							<span class="listItem">Season 2</span>
+							<span class="listItem">Season 1</span>
+						</div>
+					</div>
+					<div class="rateTable">
+						
+						<table>
+						  <thead>
+						    <tr>
+						      <td>ID<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Summoner<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Lose<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win Ratio<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						    </tr>
+						  </thead>
+						  <tbody>
+						  <tr>
+						  	<td>
+						  		2
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+				<div class="rateBox focusItem">
+					<div class="lineTitle subTitle">
+						<h4><span class="lighter">Zed</span> Master’s Rank</h4>
+						<span></span>
+					</div>
+					<div class="listArea customSelect">
+						<span class="listText">Season 6</span>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<div class="listItems">
+							<span class="listItem">Season 6</span>
+							<span class="listItem">Season 5</span>
+							<span class="listItem">Season 4</span>
+							<span class="listItem">Season 3</span>
+							<span class="listItem">Season 2</span>
+							<span class="listItem">Season 1</span>
+						</div>
+					</div>
+					<div class="rateTable">
+						
+						<table>
+						  <thead>
+						    <tr>
+						      <td>ID<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Summoner<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Lose<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win Ratio<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						    </tr>
+						  </thead>
+						  <tbody>
+						  <tr>
+						  	<td>
+						  		2
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+				<div class="rateBox">
+					<div class="lineTitle subTitle">
+						<h4><span class="lighter">Zed</span> Master’s Rank</h4>
+						<span></span>
+					</div>
+					<div class="listArea customSelect">
+						<span class="listText">Season 6</span>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+						<div class="listItems">
+							<span class="listItem">Season 6</span>
+							<span class="listItem">Season 5</span>
+							<span class="listItem">Season 4</span>
+							<span class="listItem">Season 3</span>
+							<span class="listItem">Season 2</span>
+							<span class="listItem">Season 1</span>
+						</div>
+					</div>
+					<div class="rateTable">
+						
+						<table>
+						  <thead>
+						    <tr>
+						      <td>ID<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Summoner<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Lose<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						      <td>Win Ratio<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+						    </tr>
+						  </thead>
+						  <tbody>
+						  <tr>
+						  	<td>
+						  		2
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  <tr>
+						  	<td>
+						  		1
+						  	</td>
+						  	<td>
+						  		NoProNo
+						  	</td>
+						  	<td>
+						  		20
+						  	</td>
+						  	<td>4</td>
+						  	<td>%96</td>
+						  </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			</section>
+        </article>
+        <div class="clr"></div>
+        <!-- footer start -->
+        <footer>
+        	<div class="siteW">
+	                <span class="copyRight fl">
+	                    &copy; 2012-2016 <strong>LeagueOfLegends</strong> Data based on League of legends Turkey.
+	                </span>
+	                <nav>
+	                    <ul class="list fr">
+	                        <li><a href="#">About Us</a></li>
+	                        <li><a href="#" class="showContactModal">Contact</a></li>
+	                    </ul>
+	                </nav>
+	        </div>
+        </footer>
+</body>
+</html>

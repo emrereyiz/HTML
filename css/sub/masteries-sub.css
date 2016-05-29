@@ -1,0 +1,114 @@
+
+				/*.pageMasteriesSub .masteriesCols {margin: 30px 0 0 0;}*/
+				.pageMasteriesSub .masteriesCols .masteriesCol {width: 167px;border-radius: 15px;float: left;border:Solid 2px #57606c; position: relative; cursor: pointer;}
+
+				.pageMasteriesSub .masteriesCols .ferocity {}
+				.pageMasteriesSub .masteriesCols .cunning {margin: 0 0 0 14px;}
+				.pageMasteriesSub .masteriesCols .resolve {float: right;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .topCol{height: 29px;display: inline-block;width: 100%;color: #fff;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .topCol .title{margin: 7px 0 0 10px;display: inline-block;font-family: 'GothamMedium';font-size: 10px;float: left;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .topCol .number{font-size: 11px;float: right;margin: 6px 14px 0 0;}
+
+				.pageMasteriesSub .masteriesCols .ferocity .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #e74c3c; /* Old browsers */
+					background: -moz-linear-gradient(left,  #e74c3c 0%, #c0392b 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #e74c3c 0%,#c0392b 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #e74c3c 0%,#c0392b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e74c3c', endColorstr='#c0392b',GradientType=1 ); /* IE6-9 */
+				}
+				.pageMasteriesSub .masteriesCols .cunning .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #9b59b6; /* Old browsers */
+					background: -moz-linear-gradient(left,  #9b59b6 0%, #8e44ad 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #9b59b6 0%,#8e44ad 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #9b59b6 0%,#8e44ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b59b6', endColorstr='#8e44ad',GradientType=1 ); /* IE6-9 */
+				}
+				.pageMasteriesSub .masteriesCols .resolve .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #34be73; /* Old browsers */
+					background: -moz-linear-gradient(left,  #34be73 0%, #27ae60 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #34be73 0%,#27ae60 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #34be73 0%,#27ae60 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34be73', endColorstr='#27ae60',GradientType=1 ); /* IE6-9 */
+				}
+
+
+
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol{width: 100%;height: 275px;background-image: url('../../img/row01.png');border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol.cunning .bottomCol{background-image: url('../../img/row02.png');}
+				.pageMasteriesSub .masteriesCols .masteriesCol.resolve .bottomCol{background-image: url('../../img/row03.png');}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items{width: 133px;margin: 0 auto;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row{margin: 8px 0 0 0;display: inline-block;width: 100%;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .item{width: 26px;height: 26px;position:relative;font-family: 'GothamMedium';font-size: 13px;color: #fff;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .fm{position: absolute;margin: -2px 0 0 56px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .item .image{background-image:url('../../img/masteries-icons.png');width: 100%;height: 100%;display: inline-block;border: solid 2px #696f7a;border-radius: 100%;}
+				.pageMasteriesSub .masteriesCols .masteriesCol.cunning .items .item .image{background-image:url('../../img/masteries-icons02.png'); width: 100%; height: 100%; display: inline-block;}
+				.pageMasteriesSub .masteriesCols .masteriesCol.resolve .items .item .image{background-image:url('../../img/masteries-icons03.png'); width: 100%; height: 100%; display: inline-block;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .item .rank{position: absolute;right: 0;bottom: 0;padding: 5px;background: #696f7a;border-radius: 10px;margin: 0 -17px -16px 0;/* width: 17px; */font-size: 9px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .active .image{border-color:#e74c3c;}
+				.pageMasteriesSub .masteriesCols .cunning .bottomCol .items .active .image{border-color:#8e44ad;}
+				.pageMasteriesSub .masteriesCols .resolve .bottomCol .items .active .image{border-color:#27ae60;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .active .rank{background: #e74c3c;}
+				.pageMasteriesSub .masteriesCols .cunning .bottomCol .items .active .rank{background: #8e44ad;}
+				.pageMasteriesSub .masteriesCols .resolve .bottomCol .items .active .rank{background: #27ae60;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .rowCenter{margin: 10px 0 10px 0;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .rowCenter .fl{margin: 0 0 0 35px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .rowCenter .fr{margin: 0 35px 0 0;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row01 .item01 .image{background-position: top left;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row01 .item02 .image{background-position: -174px 0;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row02 .item03 .image{background-position: -3px -103px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row02 .item04 .image{background-position: -92px -101px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row02 .item05 .image{background-position: -174px -102px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row03 .item06 .image{background-position: -2px -194px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row03 .item07 .image{background-position: -174px -196px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row04 .item08 .image{background-position: -49px -294px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row04 .item09 .image{background-position: -135px -293px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row05 .item10 .image{background-position: -2px -386px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row05 .item11 .image{background-position: -172px -385px;}
+
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row06 .item12 .image{background-position: -5px -486px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row06 .item13 .image{background-position: -91px -485px;}
+				.pageMasteriesSub .masteriesCols .masteriesCol .bottomCol .items .row06 .item14 .image{background-position: -177px -486px;}
+
+				.pageMasteriesSub .masteriesCols .resolve .bottomCol .items .row02 .item03 .image{background-position: -46px -101px;}
+				.pageMasteriesSub .masteriesCols .resolve .bottomCol .items .row02 .item04 .image{background-position: -124px -101px;}
+
+				.pageMasteriesSub .masteriesTooltip {position:absolute;width: 107px;/* height: 55px; */background-image:url('../../img/tooltip-bg.png');top:0;right:0;margin: 48px -113px 0 0;border-radius: 10px;font-size: 10px;padding: 16px 22px;z-index: 9;}
+
+				.pageMasteriesSub .masteriesTooltip .arrow{background-image: url('../../img/tooltip-arrow.png') !important;/* border: solid 1px red; */width: 26px;height: 16px;display: inline-block;position: absolute;top: 0;margin: -14px 0 0 -40px;background-size: 100% 100%;}
+				.pageMasteriesSub .masteriesTooltip .title{a;font-family: 'GothamBold';display: inherit;width: 100%;}
+				.pageMasteriesSub .masteriesTooltip .info{font-family: 'GothamMedium';display: inline-block;width: 100%;letter-spacing: -0.02em; margin:0 !important;}
+				.pageMasteriesSub .masteriesTooltip .text{font-family: 'GothamBook';font-size: 11px;color: #d9d9d9;}
+
+				.pageMasteriesSub .rateCont{width:74px !important;}
+				#content #championRate.pageMasteriesSub .mostMasteries,
+				#content #championRate.pageMasteriesSub .mostMasteries .itemTable{float: right; width: 750px;}
+
+				.pageMasteriesSub .slimScrollDiv{height: 500px !important;}
+				.pageMasteriesSub .dataTables_scrollBody{height: 100% !important;}
+
+				.pageMasteriesSub .disable{}
+				
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol{border:none;}
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .topCol .title,
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .topCol .number{display: none;}
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .bottomCol .items .row{display: none;}
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .bottomCol .items .row02 {display: block; position: absolute; left:0; top: 0;}
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .bottomCol{height: 0;}
+				.pageMasteriesSub .masteriesCols.disable .masteriesCol .bottomCol .items .fm{margin: 0 0 0 70px;}

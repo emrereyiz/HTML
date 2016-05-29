@@ -1,0 +1,10 @@
+#content .pageRuneSub .skillsItem{margin: 0 0 60px 0;}
+#content .pageRuneSub .skillsItem .skillLeft{margin:30px 0 0 0 !important;}
+#content .pageRuneSub .runeContent{font-family: 'GothamLight';color: #696f7a;font-size: 18px;margin: 0 0 0 40px;}
+#content .pageRuneSub .runeContent li{position: relative; float: left; margin:0 0 0 60px; width: 115px; text-align: center;}
+#content .pageRuneSub .runeContent li:first-child{margin: 0 0 0 0;}
+#content .pageRuneSub .runeContent .runeNo{font-size: 22px; font-family: 'GothamMedium'; position: absolute; top:0; right: 0; margin:-20px 0 0 0;}
+#content .pageRuneSub .runeContent img{width:59px; height: auto;}
+#content .pageRuneSub .runeContent .text{display: inline-block;text-align: center; width: 100%; word-wrap: break-word;}
+
+#content .pageRuneSub .c_win-rate{margin:20px 0 0 0;}

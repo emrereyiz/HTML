@@ -1,0 +1,53 @@
+
+
+			#content.multi-search .search-collapser .input{height:150px;max-height:150px;min-height:150px;width:990px;max-width:990px;min-width:990px}
+			#content.multi-search .search-collapser .info{text-align:center;width:100%;color:#fff!important;margin:30px 0!important; font-size: 17px !important;}
+			#content.multi-search .input {border: solid 1px #969ca4;background: none;width: 100%;color: #969ca4;padding: 10.5px;margin: 15px 0 0 0;border-radius: 8px;background-repeat: no-repeat;background-position: top 8px right 15px;box-sizing: border-box}
+			#content.multi-search .input.search {background-image: url('../../img/championSearch.png')}
+			#content.multi-search .search-collapser textarea{margin:0 10px 0 0;float:left}
+			#content.multi-search .search-collapser .btn-group{width:170px;float:left}
+			#content.multi-search .search-collapser .btn-group .btn{padding:0;margin-top:0;border:0;display:block}
+			#content.multi-search .search-collapser .btn-group .btn.btn-dark{background:#242426}
+			#content.multi-search .search-collapser .btn-group .btn.btn-search{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background-image:url(../../img/championSearch.png);background-repeat:no-repeat;background-position:center center;width:170px;height:80px; cursor:pointer;}
+			#content.multi-search .search-collapser .btn-group .btn.btn-how-to-use{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;color:#aaafb7;height:60px;line-height:60px;text-align:center;width:170px;margin-top:10px; font-size:12.8px; cursor: pointer;}
+			#content.multi-search .how-to-use{width:860px;height:310px;background:#242426;border-radius:10px;padding:20px 35px;margin:95px auto 0; position: relative; display: none;}
+			#content.multi-search .how-to-use .title h2{float:left;font-size:22.65px;color:#aaafb7; font-family: 'GothamMedium';}
+			#content.multi-search .how-to-use .title p{float:left;color:#696f7a;font-size: 13.2px;margin: 7px 0 0 10px;}
+			#content.multi-search .how-to-use img{margin:25px 0 0 0; display: inline-block;}
+			#content.multi-search .how-to-use i{color:#aaafb7; position: absolute; right: 0; top: 0; margin:15px 25px 0 0; font-size: 30px;}
+			#content.multi-search .search-result{width:100%}
+			#content.multi-search .search-result .search-result-item{border-bottom:1px solid #696f7a;padding:50px 0}
+			#content.multi-search .search-result .search-result-item:last-child{border-bottom:0}
+			#content.multi-search .search-result .search-result-item .user-info{float:left;margin-right:110px}
+			#content.multi-search .search-result .search-result-item .user-info:last-child{margin-right:0!important}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info{width:400px;margin: 0 90px 0 20px;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info h4{margin-bottom: 40px;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .last-games-win-rate h6{color:#aaafb7;margin-bottom:25px}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .last-games-win-rate h6 span{margin-left:20px; color:#5a5f68;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group{width: 118px;margin-top:60px;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group .btn{height:20px;line-height:20px}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group .btn.btn-green{width:100%;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin:0}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group .btn-list{width: 500px;margin: 10px 0 0 0;font-size:12px;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group .btn-list .btn{width: 31px;margin:0 2px;font-family: 'GothamMedium';font-size: 11px;color: #aaafb7;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info .btn-group .btn-list .btn:hover{border-color:#e57d21;color:#e57d21;background:rgba(0,0,0,0)}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li{float:left;width:32px;margin-right:5px;position:relative}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li:last-child{margin-right:0}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li .fa{font-size: 16px;width:7px;height:9px;position:absolute;right: -1px;top: 1px;color:#aaafb7;}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li span{width:16px;height:16px;display:block;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:rgba(0,0,0,0);border-width:2px;border-style:solid}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li span.win{border-color:#2ecc71}
+			#content.multi-search .search-result .search-result-item .user-info.basic-info ul.win-lost-rate-graph li span.lose{border-color:#cf4739}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked{width:170px}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6{margin-bottom: 10px;color:#aaafb7;font-size: 12px;}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6 span{font-size:11px;margin: 4px 0 0 0;display: inline-block;}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6 .ranked-info span.win{color:#2ecc71}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6 .ranked-info span.lose{color:#cf4739}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6 .ranked-info span.percent{color:#696f7a}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h6 .ranked-info p {font-size: 12px}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked img{width: 152px;}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked p{font-size:11px; padding:0 40px 0 0;}
+			#content.multi-search .search-result .search-result-item .user-info.all-ranked h4{font-size:17px;}
+			#content.multi-search .search-result .search-result-item .user-info.recently-played{width:380px}
+			#content.multi-search .search-result .search-result-item .user-info.recently-played .rateBox .rateTable .rateContent{height:160px!important}
+
+			#content.multi-search .search-result .search-result-item .rateBox{width: 378px;}
+ 

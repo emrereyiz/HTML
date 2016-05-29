@@ -1,0 +1,97 @@
+
+				.masteriesContent #masteriesCols {margin: 30px 0 0 0;}
+				.masteriesContent #masteriesCols .masteriesCol {width: 377px; border-radius: 15px; float: left; border:Solid 2px #57606c;}
+
+				.masteriesContent #masteriesCols .ferocity {}
+				.masteriesContent #masteriesCols .cunning {margin: 0 0 0 14px;}
+				.masteriesContent #masteriesCols .resolve {float: right;}
+
+				.masteriesContent #masteriesCols .masteriesCol .topCol{height: 49px; display: inline-block; width: 100%; color: #fff;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+				.masteriesContent #masteriesCols .masteriesCol .topCol .title{margin:13px 0 0 24px; display: inline-block; font-family: 'GothamMedium'; font-size: 18px;}
+				.masteriesContent #masteriesCols .masteriesCol .topCol .number{font-size: 24px; float: right; margin:11px 33px 0 0;}
+
+				.masteriesContent #masteriesCols .ferocity .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #e74c3c; /* Old browsers */
+					background: -moz-linear-gradient(left,  #e74c3c 0%, #c0392b 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #e74c3c 0%,#c0392b 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #e74c3c 0%,#c0392b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e74c3c', endColorstr='#c0392b',GradientType=1 ); /* IE6-9 */
+				}
+				.masteriesContent #masteriesCols .cunning .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #9b59b6; /* Old browsers */
+					background: -moz-linear-gradient(left,  #9b59b6 0%, #8e44ad 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #9b59b6 0%,#8e44ad 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #9b59b6 0%,#8e44ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b59b6', endColorstr='#8e44ad',GradientType=1 ); /* IE6-9 */
+				}
+				.masteriesContent #masteriesCols .resolve .topCol{
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+					background: #34be73; /* Old browsers */
+					background: -moz-linear-gradient(left,  #34be73 0%, #27ae60 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #34be73 0%,#27ae60 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #34be73 0%,#27ae60 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34be73', endColorstr='#27ae60',GradientType=1 ); /* IE6-9 */
+				}
+
+
+
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol{width: 100%;height: 611px;background-image: url('../../img/row01.png');border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;}
+
+				.masteriesContent #masteriesCols .masteriesCol.cunning .bottomCol{background-image: url('../../img/row02.png');}
+				.masteriesContent #masteriesCols .masteriesCol.resolve .bottomCol{background-image: url('../../img/row03.png');}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items{width: 233px; margin: 0 auto;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row{margin:25px 0 0 0;  display: inline-block; width: 100%;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .item{width: 60px;height: 64px;position:relative;font-family: 'GothamMedium';font-size: 13px;color: #fff;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .fm{position: absolute;margin: -2px 0 0 86px;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .item .image{background-image:url('../../img/masteries-icons.png');width: 100%;height: 100%;display: inline-block;border: solid 2px #696f7a;border-radius: 100%;}
+				.masteriesContent #masteriesCols .masteriesCol.cunning .items .item .image{background-image:url('../../img/masteries-icons02.png'); width: 100%; height: 100%; display: inline-block;}
+				.masteriesContent #masteriesCols .masteriesCol.resolve .items .item .image{background-image:url('../../img/masteries-icons03.png'); width: 100%; height: 100%; display: inline-block;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .item .rank{position: absolute;right: 0;bottom: 0;padding: 5px;background: #696f7a;border-radius: 10px;margin: 0 -10px 0 0;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .active .image{border-color:#e74c3c;}
+				.masteriesContent #masteriesCols .cunning .bottomCol .items .active .image{border-color:#8e44ad;}
+				.masteriesContent #masteriesCols .resolve .bottomCol .items .active .image{border-color:#27ae60;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .active .rank{background: #e74c3c;}
+				.masteriesContent #masteriesCols .cunning .bottomCol .items .active .rank{background: #8e44ad;}
+				.masteriesContent #masteriesCols .resolve .bottomCol .items .active .rank{background: #27ae60;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .rowCenter{margin:15px 0 20px 0;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .rowCenter .fl{margin:0 0 0 45px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .rowCenter .fr{margin:0 45px 0 0;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row01 .item01 .image{background-position: top left;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row01 .item02 .image{background-position: -174px 0;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row02 .item03 .image{background-position: -3px -103px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row02 .item04 .image{background-position: -92px -101px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row02 .item05 .image{background-position: -174px -102px;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row03 .item06 .image{background-position: -2px -194px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row03 .item07 .image{background-position: -174px -196px;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row04 .item08 .image{background-position: -49px -294px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row04 .item09 .image{background-position: -135px -293px;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row05 .item10 .image{background-position: -2px -386px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row05 .item11 .image{background-position: -172px -385px;}
+
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row06 .item12 .image{background-position: -5px -486px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row06 .item13 .image{background-position: -91px -485px;}
+				.masteriesContent #masteriesCols .masteriesCol .bottomCol .items .row06 .item14 .image{background-position: -177px -486px;}
+
+				.masteriesContent #masteriesCols .resolve .bottomCol .items .row02 .item03 .image{background-position: -46px -101px;}
+				.masteriesContent #masteriesCols .resolve .bottomCol .items .row02 .item04 .image{background-position: -124px -101px;}
+
+				 .masteriesTooltip {position:absolute;width: 208px;/* height: 55px; */background-image:url('../../img/tooltip-bg.png');top:0;right:0;margin: 60px -193px 0 0;border-radius: 10px;font-size: 16px;padding: 16px 22px;z-index: 9;}
+
+				 .masteriesTooltip .arrow{background-image: url('../../img/tooltip-arrow.png') !important;/* border: solid 1px red; */width: 26px;height: 16px;display: inline-block;position: absolute;top: 0;margin: -15px 0 0 0;background-size: 100% 100%;}
+				 .masteriesTooltip .title{a;font-family: 'GothamBold';display: inherit;width: 100%;}
+				 .masteriesTooltip .info{font-family: 'GothamMedium';display: inline-block;width: 100%;letter-spacing: -0.02em; margin:0 !important;}
+				 .masteriesTooltip .text{font-family: 'GothamBook';font-size: 14px;color: #d9d9d9;}

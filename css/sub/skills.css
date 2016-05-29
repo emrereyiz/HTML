@@ -1,0 +1,27 @@
+#skillsCont{width: 100%;}
+#skillsCont #skillsItems{}
+#skillsCont #skillsItems .skillsItem{width:100%;}
+#skillsCont #skillsItems .skillsItem .skillLeft{width:145px;float: left;margin: 73px 60px 0 35px;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey{font-family: 'GothamMedium';font-size: 30px;color:#fff;width: 142px;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey ul{display: inline-block; width: 100%;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey ul li{float: left;margin: 0 31px 0 0;position: relative;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey ul li:last-child{margin-right: 0;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey ul li:not(:last-child):after{content: "";background-image:url('../img/key-arrow.png');background-repeat: no-repeat;width: 7px;height:11px;position: absolute;right: 0;top: 0;margin: 13px -19px 0 0;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey .text,
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey .number{font-size:18px;margin: 10px 0 0 0;text-align: center;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey .text{font-family: 'GothamBook';color:#aaafb7; float: left;}
+#skillsCont #skillsItems .skillsItem .skillLeft .skillsKey .number{font-family: 'GothamMedium'; float: right;}
+
+
+
+#skillsCont #skillsItems .skillsItem .skillRight{width:930px;float: left; position: relative;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable{width:770px; float: left;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillRate{width:160px; float: right;}
+
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table {width: 530px;float: left;margin-left: 25px;margin-top: 25px;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr th {text-align: center;font-size: 13px;color: #ffffff;font-family: 'GothamBook';font-weight: normal;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr td {text-align: center;font-size: 13px;color: #aaafb7;font-family: 'GothamBook';font-weight: normal;padding-top: 5px;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr td div {background: #000;display: block;width: 60px;height: 9px;margin: 0 auto;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr td div > div {background: #aaafb7;display: block;margin: 0;border: 1px solid #494b4e;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr td span {display: block;font-size: 10px;}
+#skillsCont #skillsItems .skillsItem .skillRight .skillTable .user-statistics-table tr td span.highlight {color: #e74c3c;}

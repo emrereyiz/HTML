@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>League Of Legends</title>
+		<link rel="stylesheet" type="text/css" href="css/sub.css">
+		<link rel="stylesheet" type="text/css" href="css/plugin/select2.min.css">
+		<link rel="stylesheet" type="text/css" href="css/plugin/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/plugin/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+		<script type="text/javascript" src="js/plugin/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.min.js"></script>
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/plugin/select2.min.js"></script>
+		<script type="text/javascript" src="js/plugin/jquery.mixitup.js"></script>
+		<script type="text/javascript" src="http://rocha.la/misc/jsdemos/slimScroll/jquery.slimscroll.js"></script>
+		<script type="text/javascript" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+
+
+		<!-- header start -->
+		<header>
+			<div class="siteW">
+				<!-- nav start -->
+				<nav>
+					<!-- list start -->
+					<ul class="list">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="multisearch.html">Multi-Search</a></li>
+						<!-- sub menu -->
+						<li class="hasList">
+							<a href="chart-detail.html">Statistics</a>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<ul>
+								<li><a href="champion-statistics.html">Champion Statistics</a></li>
+								<li><a href="leaderboards.html">Leaderboards</a></li>
+							</ul
+						</li>
+						<li><a href="champ-detail.html">Pro Spectate</a></li>
+					</ul>
+				</nav>
+				<!-- logo start -->
+				<a id="logo" href="index.html">
+					<body>
+						<span><i class="icon-cloud-download icon-large"></i>lol</span>
+						<strong>League</strong>Of<strong>Legends</strong>
+					</a>
+					<!-- topLang start -->
+					<div class="topLang fr">
+						<div class="listArea customSelect">
+							<span class="listText">English</span>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<div class="listItems">
+								<span class="listItem">Turkish</span>
+								<span class="listItem">English</span>
+							</div>
+						</div>
+					</div>
+			</div>
+		</header>
+			<!-- content start -->
+		<article id="content" class="siteW">
+				<!-- championSearch start -->
+				<section id="championSearch" class="introSection">
+					<div class="alignMiddle">
+						<div class="lineTitle">
+							<h3>Champion Statistics</h3>
+							<span></span>
+						</div>
+						<div class="clr"></div>
+						<ul class="fl">
+							<li><a href="javascript:;" data-filter="all" class="fiter borderGrey">All</a></li>
+							<li><a href="javascript:;" data-filter=".top" class="filter top borderOrange">Top</a></li>
+							<li><a href="javascript:;" data-filter=".jungle" class="filter jungle borderGreen">Jungle</a></li>
+							<li><a href="javascript:;" data-filter=".mid" class="filter mid borderPurple">Mid</a></li>
+							<li><a href="javascript:;" data-filter=".adc" class="filter adc borderRed">ADC</a></li>
+							<li><a href="javascript:;" data-filter=".support" class="filter support borderAqua">Support</a></li>
+						</ul>
+						<span class="info">* Uses rank game data from Platinum to Challenger from each region.</span>
+						<div class="clr"></div>
+						<input type="text" name="championsearch" id="championsearch" value="Search a Champion">
+						<!-- Set up your HTML -->
+						<!-- Swiper
+						<div class="swiper-container">
+										<ul class="swiper-wrapper">
+														<li class="swiper-slide mix junle">Slide 1</li>
+														<li class="swiper-slide mix junle">Slide 2</li>
+														<li class="swiper-slide mix junle">Slide 3</li>
+														<li class="swiper-slide mix junle">Slide 4</li>
+														<li class="swiper-slide mix adc">Slide 5</li>
+														<li class="swiper-slide mix adc">Slide 6</li>
+														<li class="swiper-slide mix adc">Slide 7</li>
+														<li class="swiper-slide mix support">Slide 8</li>
+														<li class="swiper-slide mix support">Slide 9</li>
+														<li class="swiper-slide mix support">Slide 10</li>
+										</ul>
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+						</div> -->
+						
+						<ul class="championSlide">
+							<li class="mix mid">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/katarina.png">
+									<span class="champName">Katarina</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix mid">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/ahri.png">
+									<span class="champName">Ahri</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix mid">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/leblanc.png">
+									<span class="champName">Leblanc</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix top">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/zed.png">
+									<span class="champName">Zed</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span> / <span class="roleOrange">Top</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix top">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/syndra.png">
+									<span class="champName">Syndra</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix jungle">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/diana.png">
+									<span class="champName">Diana</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+							<li class="mix adc">
+								<a href="javascript:;">
+									<img src="img/champ-image/110/talon.png">
+									<span class="champName">Talon</span>
+									<div class="champRole">
+										<span class="rolePurple">Middle</span> / <span class="roleRed">ADC</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="clr"></div>
+						<div class="posRel text-center">
+							<a href="#about" class="btn btn-circle page-scroll">
+			                    <i class="fa fa-angle-double-down animated"></i>
+			                </a>
+		                </div>
+	                </div>
+				</section>
+				<!-- championRate start -->
+				<section id="championRate">
+					<!-- rateBox start -->
+					<div class="rateBox">
+						<div class="lineTitle subTitle">
+							<h4>Highest Pick Rate Champion by Role</h4>
+							<span></span>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/diana.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Diana
+									<span class="champRole colorPurple">
+										Middle
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">25.36%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/kalista.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Kalista
+									<span class="champRole colorPurple">
+										Middle
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">15.94%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/lucian.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Lucian
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">15.56%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/kalista.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Kalista
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">90.51%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/vayne.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Vayne
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">0.45%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- rateBox start -->
+					<div class="rateBox">
+						<div class="lineTitle subTitle">
+							<h4>Highest Win Rate Champion by Role</h4>
+							<span></span>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/diana.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Diana
+									<span class="champRole colorPurple">
+										Middle
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">100%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/kalista.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Kalista
+									<span class="champRole colorPurple">
+										Middle
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">15.94%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/lucian.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Lucian
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">15.56%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/kalista.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Kalista
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">4.51%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- rateRow start -->
+						<div class="rateRow">
+							<img src="img/champ-image/52/vayne.png" class="fl">
+							<div class="rateInfo">
+								<div class="champName">
+									Vayne
+									<span class="champRole colorRed">
+										ADC
+									</span>
+								</div>
+								<div class="champBar fr">
+									<strong class="rateVal">4%</strong>
+									<div class="fr rateCont">
+										<span class="rateBar"></span>
+										<span class="rateBg"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rateBox banRate fr">
+						<div class="lineTitle subTitle">
+							<h4>Ban Rate</h4>
+							<span></span>
+						</div>
+						<div id="rateTable" class="rateTable">
+							<table>
+								<thead>
+									<tr>
+										<td>ID<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+										<td>Champion<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+										<td>Value<i class="fa fa-angle-down" aria-hidden="true"></i></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Yasuo</td>
+										<td>%10</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Kalista</td>
+										<td>%90 </td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Lucian</td>
+										<td>%88.28</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Vayne</td>
+										<td>%86.58 </td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td>Varus</td>
+										<td>%80.16</td>
+									</tr>
+									<tr>
+										<td>6</td>
+										<td>Zed</td>
+										<td>%78.5</td>
+									</tr>
+									<tr>
+										<td>7</td>
+										<td>Talon</td>
+										<td>%74.2</td>
+									</tr>
+									<tr>
+										<td>8</td>
+										<td>Syndra</td>
+										<td>%72.1</td>
+									</tr>
+									<tr>
+										<td>9</td>
+										<td>Yasuo</td>
+										<td>%10</td>
+									</tr>
+									<tr>
+										<td>10</td>
+										<td>Kalista</td>
+										<td>%90 </td>
+									</tr>
+									<tr>
+										<td>11</td>
+										<td>Lucian</td>
+										<td>%88.28</td>
+									</tr>
+									<tr>
+										<td>12</td>
+										<td>Vayne</td>
+										<td>%86.58 </td>
+									</tr>
+									<tr>
+										<td>13</td>
+										<td>Varus</td>
+										<td>%80.16</td>
+									</tr>
+									<tr>
+										<td>14</td>
+										<td>Zed</td>
+										<td>%78.5</td>
+									</tr>
+									<tr>
+										<td>15</td>
+										<td>Talon</td>
+										<td>%74.2</td>
+									</tr>
+									<tr>
+										<td>16</td>
+										<td>Syndra</td>
+										<td>%72.1</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="clr"></div>
+					<!-- championStats start -->
+					<div id="championStats">
+						<div class="lineTitle">
+							<h3>Game Stats by Champion</h3>
+							<span></span>
+						</div>
+						<!-- statFilter start -->
+						<div class="statFilter">
+							<div class="filterItem">
+								<div class="lineTitle subTitle">
+									<h4>Graph Type</h4>
+									<span></span>
+								</div>
+								<ul>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Win rate
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Low win ratio
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Wards purchased
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Leave ratio
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Pick ratio per game
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										test
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										test
+									</li>
+								</ul>
+							</div>
+							<div class="filterItem">
+								<div class="lineTitle subTitle">
+									<h4>League</h4>
+									<span></span>
+								</div>
+								<ul>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										All
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Bronze
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Silver
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Gold
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Platinum
+									</li>
+								</ul>
+							</div>
+							<div class="filterItem">
+								<div class="lineTitle subTitle">
+									<h4>Time</h4>
+									<span></span>
+								</div>
+								<ul>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										All
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Today
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Last 7 Days
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Last Month
+									</li>
+								</ul>
+							</div>
+							<div class="filterItem">
+								<div class="lineTitle subTitle">
+									<h4>Map</h4>
+									<span></span>
+								</div>
+								<ul>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										All
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Summoner's Rift
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										The Twisted Treeline
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Howling Abyss
+									</li>
+								</ul>
+							</div>
+							<div class="filterItem">
+								<div class="lineTitle subTitle">
+									<h4>Queue Type</h4>
+									<span></span>
+								</div>
+								<ul>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										All
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Ranked
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Team rank
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										Normal Queue
+									</li>
+									<li>
+										<i class="fa fa-circle-o" aria-hidden="true"></i>
+										ARAM
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- statTableContent start -->
+						<div class="statTableContent">
+							<div id="statTable" class="rateTable championStatistics">
+								<table>
+									<thead>
+										<tr>
+											<td>ID <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>Champion <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>Win Rate <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>Games played <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>KDA <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>CS <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+											<td>Gold <i class="fa fa-angle-down" aria-hidden="true"></i></td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/kalista.png" class="fl">
+													<span class="fr">Kalista</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">100.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/diana.png" class="fl">
+													<span class="fr">Diana</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/lucian.png" class="fl">
+													<span class="fr">Lucian</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/vayne.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/cho-gath.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/kalista.png" class="fl">
+													<span class="fr">Kalista</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">100.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/diana.png" class="fl">
+													<span class="fr">Diana</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/lucian.png" class="fl">
+													<span class="fr">Lucian</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/vayne.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/cho-gath.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/kalista.png" class="fl">
+													<span class="fr">Kalista</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">100.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/diana.png" class="fl">
+													<span class="fr">Diana</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>2.51:1</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/lucian.png" class="fl">
+													<span class="fr">Lucian</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/vayne.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td>
+												<div class="rateChampion">
+													<img src="img/champ-image/52/cho-gath.png" class="fl">
+													<span class="fr">Vayne</span>
+												</div>
+											</td>
+											<td>
+												<div class="rateWin">
+													<div class="champBar fr">
+														<div class="fl rateCont">
+															<span class="rateBar"></span>
+															<span class="rateBg"></span>
+														</div>
+														<strong class="fr rateVal">55.35%</strong>
+													</div>
+												</div>
+											</td>
+											<td>266,272</td>
+											<td>0</td>
+											<td><span class="colorGreen">190.87</span></td>
+											<td><span class="colorOrange">12,205</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="clr"></div>
+						</div>
+					</div>
+				</section>
+		</article>
+        <div class="clr"></div>
+        <!-- footer start -->
+        <footer>
+        	<div class="siteW">
+	                <span class="copyRight fl">
+	                    &copy; 2012-2016 <strong>LeagueOfLegends</strong> Data based on League of legends Turkey.
+	                </span>
+	                <nav>
+	                    <ul class="list fr">
+	                        <li><a href="#">About Us</a></li>
+	                        <li><a href="#" class="showContactModal">Contact</a></li>
+	                    </ul>
+	                </nav>
+	        </div>
+        </footer>
+
+	</body>
+	</html>

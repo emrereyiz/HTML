@@ -1,0 +1,53 @@
+
+			#content .rateBox.summarySeason .rateRow{float: left; padding-top:13px; padding-bottom: 13px;}
+			#content .rateBox.summarySeason .rateRow:hover{background-color:#2b2c2f;}
+			#content .rateBox.summarySeason .rateRow .rateInfo{margin-left:10px;width:290px;}
+			#content .rateBox.summarySeason .rateRow div{text-align: center;font-family:'GothamBold'; font-size: 15px; color: #696f7a; float: left;}
+			#content .rateBox.summarySeason .rateRow div span{font-family:'GothamBook'; font-size: 13px !important; color:#696f7a; display: inline-block; margin:4px 0 0 0;}
+			
+			#content .rateBox.summarySeason .rateRow .champName{color:#00debe !important;}
+			#content .rateBox.summarySeason .rateRow .champName span.champInfo{}
+			
+			#content .rateBox.summarySeason .rateRow .champKillDeath{width:100px; margin-left:35px;}
+			#content .rateBox.summarySeason .rateRow .champKillDeath span{}
+			
+			#content .rateBox.summarySeason .rateRow .champPlayed{width: 70px; float: right;}
+			#content .rateBox.summarySeason .rateRow .champPlayed span{}
+			#content .rateBox.summaryWinLose .rateRow .rateInfo .champName{margin: 7px 0 0 0;}
+
+			#content .rateBox.summaryWinLose .rateRow .rateInfo .champName,
+			#content .rateBox.summaryWinLose .rateRow .rateInfo .rateVal{font-family: 'GothamMedium' !important; font-size: 17px !important;}
+			#content .rateBox.summaryWinLose .rateRow .rateInfo .rateVal{font-size: 15px; margin:5px 0 0 0;}
+
+
+			#content .rateBox.summaryWinLose .rateRow .rateInfo .rateCont .rateText{position: absolute; z-index: 3; font-family: 'GothamBlack'; font-size: 15px; opacity: 0.5; right: 0; top: 0; margin:4px 5px 0 0;}
+			#content .rateBox.summaryWinLose .champBar{margin:3px 0 0 0;width:182px;}
+			#content .rateBox.summaryWinLose .champBar .rateCont{width:114px; height: 23px;}
+
+			#content .rateBox.summaryWinLose .rateRow .rateInfo{width:278px;}
+
+
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle{margin: 0 0 15px 0;}
+
+			#content #championRate .rateBox.summaryRecent .rateTable tbody td{padding: 20px 0; cursor: pointer;}
+			#content #championRate .rateBox.summaryRecent .rateTable tbody tr:hover > td{color:#fff !important;}
+			#content #championRate .rateBox.summaryRecent .rateTable tbody tr:hover > td:first-child{color:#00debe !important;}
+
+/*
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow{width:377px; text-align: center;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow:hover{color:#fff; cursor: pointer;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow:hover > span.rateSummoner{color:#00debe !important;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span{background-position:top 5px right 5px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span.rateSummoner{width:86px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span.ratePlayed{width:58px; margin:0 0 0 5px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span.rateWin{width:40px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span.rateLose{width:45px; margin:0 0 0 5px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateTitle span.rateWinRatio{width:80px; float: right;margin:0 0 0 0;}
+
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow{margin:0 0 7px 0;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span{font-family: 'GothamBold'; font-size: 14px; float: left;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span.rateSummoner{width: 92px;margin: 0 0 0 5px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span.ratePlayed{width: 86px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span.rateWin{width: 38px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span.rateLose{width: 72px;}
+			#content #championRate .rateBox.summaryRecent .rateTable .rateContent .rateRow span.rateWinRatio{width: 70px;}*/

@@ -1,0 +1,23 @@
+/* leader boards */
+#content .master-rankiking{margin:160px 0 0 0;}
+#content .master-rankiking.search input{margin:56px 0 0 0;}
+#content .search.master-rankiking .lineTitle span{width: 300px;}
+
+#content .master-ranks-list{}
+#content .master-ranks-list .rateBox{width:380px; float: left; margin:0 0 0 15px;position:relative;}
+#content .master-ranks-list .rateBox h4{ font-family: 'GothamMedium'; font-size:17px;position:relative!important;background:none!important; color: #696f7a !important;}
+#content .master-ranks-list .rateBox h4 span{position: relative !important; background:none;color:#aaafb7!important;}
+
+#content .master-ranks-list .focusItem{margin-top: -55px;}
+#content .master-ranks-list .focusItem h4,
+#content .master-ranks-list .focusItem h4 span{color:#22ddbc !important;}
+
+#content .master-ranks-list .focusItem tr td:first-child{color:#696f7a !important;}
+
+#content .master-ranks-list .focusItem tbody td{color:#fff !important;}
+#content .master-ranks-list .focusItem .lineTitle{border-bottom:solid 1px #22ddbc;}
+#content .master-ranks-list .focusItem .slimScrollDiv{border-bottom:solid 1px #22ddbc;border-top:solid 1px #22ddbc;}
+
+
+
+#content .master-ranks-list .slimScrollDiv{border-bottom:solid 1px #696f7a;}

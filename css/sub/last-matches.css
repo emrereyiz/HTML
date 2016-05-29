@@ -1,0 +1,193 @@
+.lastMatchesContent,
+.modal{position:relative;width:100%;background:rgba(36,36,38,0.9);top:0;left:0;z-index:9999}
+.lastMatchesContent{display:block;margin:0 auto;padding:0}
+.lastMatchesContent .tab-data{margin:0 auto}
+.lastMatchesContent .tab-data .tab-data-left{float:left;width: 820px;border-top:2px solid #8e44ad;}
+.lastMatchesContent .tab-data .user-profile-detail{width:100%;height:350px;background:url(../../img/sub_champion_bg.jpg);background-repeat:no-repeat;background-size:100%;border-bottom:1px solid #696f7a;position:relative}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li{display:block;float:left;margin-left:7px;margin-top:10px;position:relative}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a,.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a span{display:block}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon{width:66px;height:66px;display:block;border-radius:66px;z-index:2;position:relative}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a span.reward{position:absolute;top:-10px;left:0}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a span.reward + .champ-icon{margin-top:50px}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.vayne{background:url(../../img/vayne.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.ahri{background:url(../../img/ahri.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.jayce{background:url(../../img/jayce.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.lee-sin{background:url(../../img/lee-sin.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.blitzcrank{background:url(../../img/blitzcrank.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.renakton{background:url(../../img/renakton.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.janna{background:url(../../img/janna.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.shywana{background:url(../../img/shywana.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.lucian{background:url(../../img/lucian.png)}
+.lastMatchesContent .tab-data .user-profile-detail .recent-champs li a .champ-icon.lissandra{background:url(../../img/lissandra.png)}
+.lastMatchesContent .tab-data .user-profile-detail .username{color:#fff;font-size:24px;font-family:'GothamBold';padding:20px 40px;display:block}
+.lastMatchesContent .tab-data .user-profile-detail .user-avatar{padding-left:40px;float:left}
+.lastMatchesContent .tab-data .user-profile-detail .user-abilities{float:left;margin-top:10px;margin-left:10px}
+.lastMatchesContent .tab-data .user-profile-detail .user-abilities li:nth-child(2){margin-left:15px}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table{width:530px;float:left;margin-left:25px;margin-top:25px}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr th{text-align:center;font-size:13px;color:#fff;font-family:'GothamBook';font-weight:400}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr td{text-align:center;font-size:13px;color:#aaafb7;font-family:'GothamBook';font-weight:400;padding-top:5px}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr td div{background:#000;display:block;width:60px;height:9px;margin:0 auto}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr td div > div{background:#aaafb7;display:block;margin:0;border:1px solid #494b4e}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr td span{display:block;font-size:10px}
+.lastMatchesContent .tab-data .user-profile-detail .user-statistics-table tr td span.highlight{color:#e74c3c}
+.lastMatchesContent .tab-data .user-profile-detail .modal-tab-links{bottom:2px;left:40px;position:absolute}
+.lastMatchesContent .tab-data .user-profile-detail .modal-tab-links li a{font-size:16px;margin-right:20px}
+.lastMatchesContent .tab-data .divider{width:295px;border-bottom:1px solid #696f7a;display:inline-block;padding-bottom:10px;margin:10px 40px;position:relative}
+.lastMatchesContent .tab-data .pull-right .divider{margin-right:0;float:right}
+.lastMatchesContent .tab-data .pull-right .wards-placed{margin-left:80px;padding-bottom:15px}
+.lastMatchesContent .tab-data .divider.first_child{margin-top:40px}
+.lastMatchesContent .tab-data .divider:after{content:"";width:70px;height:5px;background:#00debe;position:absolute;bottom:-4px;left:9px;border:1px solid #089c87}
+.lastMatchesContent .tab-data .divider span{color:#696f7a;font-size:13px;font-family:'GothamMedium';padding-left:10px}
+.lastMatchesContent .tab-data .item-build{margin:10px 40px}
+.lastMatchesContent .tab-data .item-build:after{content:"";clear:both;display:block}
+.lastMatchesContent .tab-data .item-build li{float:left;background:#131313;width:51px;height:51px;border-radius:51px;margin-right:30px;position:relative}
+.lastMatchesContent .tab-data .item-build li:not(:first-child):after{content:">";display:block;position:absolute;right:98%;top:18px;width:35px;height:16px;background:#131313;text-align:center;color:#676d78;font-size:16px;font-family:'GothamMedium'}
+.lastMatchesContent .tab-data .item-build li img{margin:5px auto;display:block}
+.lastMatchesContent .tab-data .abilities-table{width:710px;margin:20px 0 20px 40px;background-image:url(../../img/table_bg.jpg);background-size:100% 100%}
+.lastMatchesContent .tab-data .abilities-table td{text-align:right;width:37px;color:#696f7a;font-size:13px;font-family:'GothamBook'}
+.lastMatchesContent .tab-data .abilities-table thead td{text-align:center!important;padding-top:8px!important;padding-bottom:8px!important}
+.lastMatchesContent .tab-data .abilities-table tbody td:first-child,.lastMatchesContent .tab-data .abilities-table thead tr td{background:#141415;border:none;padding:4px 10px}
+.lastMatchesContent .tab-data .abilities-table tbody td:first-child{text-align:center}
+.lastMatchesContent .tab-data .abilities-table td img{margin-right:4px;margin-top:10px}
+.lastMatchesContent .tab-data .wards-placed{margin-left:40px;width:90%}
+.lastMatchesContent .tab-data .wards-placed:after{content:"";display:block;clear:both}
+.lastMatchesContent .tab-data .wards-placed li{float:left}
+.lastMatchesContent .tab-data .wards-placed li img{float:left}
+.lastMatchesContent .tab-data .wards-placed li span{float:left;margin:0 30px 0 15px;line-height:50px;font-size:17px;color:#fff}
+.lastMatchesContent .tab-data .tab-data-right{float:right;width: 316px;}
+
+.lastMatchesContent .tab-data.type2 .tab-data-left{border-top:none}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row{padding: 5px 10px;padding-bottom:0;background:#141415;background-position-y:30px;background-repeat:no-repeat;margin-bottom:15px;border-left:15px solid transparent;position:relative;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row::before{content:''; position:absolute; width:100%; height:30px; background:#141415; left:0; top:0;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(1)::after,
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(2)::after{content:'';position:absolute;width:100%;height: 114px;left:0;bottom:0;background-image:url('../../img/overlay-bg.png');background-repeat:repeat-y;background-position:left top;z-index:0;}
+
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(1) .bottom,
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(2) .bottom{z-index:2;position:relative; padding:20px 0 10px 0;}
+
+
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(1){border-left-color:#7bfd64;background-image:url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg'); background-size: 100% auto;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row:nth-child(2){border-left-color:#e25b4d;background-image:url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg'); background-size: 100% auto;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .game-type{font-size:14px;font-family:'GothamBold';color:#fff;display:inline-block; position:relative;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .game-date{font-size:14px;font-family:'GothamLight';color:#fff;display:inline-block; position:relative;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .game-time{float:right;font-size:14px;font-family:'GothamLight';color:#fff;display:inline-block;position:relative;padding-right:25px;line-height:19px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .game-time img{position:absolute;right:0;top:0}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom{}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom.custom{padding-left:0}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-champion{float:left;margin-top:10px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-abilities{float:left;margin-top:10px;margin-left:10px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-abilities li:nth-child(2){margin-left:15px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-stats{margin-left:40px;float:left;padding-top:7px;text-align:center;font-size:14px;font-family:'GothamLight';color:#fff}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-stats li{padding:2px 0}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-stats li span.highlight{color:#e85d4e}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-items{float:left;margin-top:10px;margin-left:35px;max-width:170px;position:relative}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-items li{float:left;margin-right:15px;padding:0 0 5px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-items li img{width:31px;height:31px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .game-items li:last-child img{position:absolute;right:0;top:0;bottom:0;margin:auto}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head{background-image:url(../../img/table_border_bottom.png);background-repeat:no-repeat;background-position: bottom right;padding-bottom: 5px;margin-bottom: 7px;background-color: #141416;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper.lost-match .table-head{background-image:url(../../img/table_border_bottom_red.png);background-repeat:no-repeat;background-position: bottom right;padding-bottom:5px;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head div{width:33%;display:block;color:#aaafb7;font-size:16px;font-family:'GothamBook';float:left;height:26px;line-height:26px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head div:nth-child(2){text-align:center}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head div:nth-child(3){text-align:right}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head div span{padding-right:5px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper .table-head div span.title{line-height:32px;height:26px;display:block;color:#fff;font-family:'GothamBold'}
+.lastMatchesContent .tab-data.type2 .tab-data-left .detail .bottom .table-wrapper .table-head{margin:0 !important;padding: 10px 0 !important;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table{width:100%;margin: 10px 0 0 0;}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table thead tr th{font-family:'GothamBook';font-size:14px;color:#fff;font-weight:400}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper{padding-top: 0;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141415+0,161f1a+100 */background: #141415; /* Old browsers */background: -moz-linear-gradient(45deg,  #141415 50%, #161f1a 100%); /* FF3.6-15 */background: -webkit-linear-gradient(45deg,  #141415 50%,#161f1a 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(45deg,  #141415 50%,#161f1a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141415', endColorstr='#161f1a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper.lost-match{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#141415+0,211818+100 */background: #141415; /* Old browsers */background: -moz-linear-gradient(45deg,  #141415 50%, #211818 100%); /* FF3.6-15 */background: -webkit-linear-gradient(45deg,  #141415 50%,#211818 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(45deg,  #141415 50%,#211818 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141415', endColorstr='#211818',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(2){position:relative}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(2) ul{float:left}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(3) ul{text-align:center}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(2) ul li img{width:15px;height:15px;margin:2px 0}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(2) ul li:nth-child(2){position:absolute;left:20px;top:30%}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table thead tr th:not(:nth-child(2)){text-align:center}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td span{float:left;margin-left:35px;margin-top:13px;color:#aaafb7;font-family:'GothamBook';font-size:14px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(3) ul li{display:inline-block}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(3) ul li img{width:22px;height:22px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:not(:nth-child(2)) span{margin-left:0;text-align:center;display:block;width:100%}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:not(:nth-child(2)) span dd{margin:0;font-size:11px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(4) span dd{color:#e67e22}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(5) div{background:#000;display:block;width:60px;height:9px;margin:0 auto;margin-top:14px}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(5) div > div{background:#aaafb7;display:block;margin:0;border:1px solid #494b4e}
+.lastMatchesContent .tab-data.type2 .tab-data-left .game-row .bottom .table-wrapper table tbody tr td:nth-child(5) span{font-size:11px;margin-top:4px}
+
+
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li{width:auto;padding:0 5px 10px 0}
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li img{width:20px;display:inline-block;margin:0 5px 0 0;float:left}
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li span{display:inline-block;width:auto;font-family:'GothamLight';font-size:12px;color:#a6abb3;text-align:left}
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li:after{content:'';display:block;clear:both}
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li i{float:left;font-style:normal;line-height:22px}
+.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul li a{font-family:'GothamMedium';color:#8e44ad}
+
+.lastMatchesContent #championRate,
+.lastMatchesContent #championStats,
+.lastMatchesContent .statFilter{margin:0 !important;}
+
+
+.lastMatchesContent .statFilter{height:auto !important;width:100% !important;}
+.lastMatchesContent .statFilter .filterItem{width:100% !important;margin: 0 0 20px 0;}
+.lastMatchesContent .statFilter .filterItem ul{overflow: auto; height: auto !important;}
+
+
+#content .lastMatchesContent{width: 100%!important;/* margin:0 0 20px 20px !important; */display:block!important;}
+
+
+.lastMatchesContent .filterItem .slimScrollDiv{height:Auto !important;}
+
+
+
+.game-row.detail{position:absolute !important;width: 100% !important;margin:20px 0 0 -15px !important;left:0;height: 960px;padding: 5px 0 !important; display: none; z-index: 10;}
+.game-row.detail .game-type{margin: 0 0 0 10px;}
+.game-row.detail .game-time,
+.game-row.detail .game-type,
+.game-row.detail .game-date{margin: 5px 10px 0 0;}
+
+.detail-view{color:#fff; position: absolute; bottom:0; right:0;font-size:15px; margin:0 15px 5px 0; z-index: 9; cursor: pointer;}
+.detail-view span{float:left; margin:0 15px 0 0;}
+.detail-view .openDetail{font-size:20px;}
+.detail-view .openModal{margin:3px 0 0 0;}
+
+
+
+/* summoners data */
+
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline{margin:15px 0; border:Solid 1px red;}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row{padding-top:50px;position:relative}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.hasTitle{padding-top:100px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom.hasTitle{padding-top:35px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row .row-title{position:absolute;left:0;right:0;top:25px;width:70px;margin:auto;font-family:'GothamLight';color:#fff;font-size:11px;text-align:center;background:#141415;padding:4px;border-radius:10px;border:1px solid #232325}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.first .row-title{top:0}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row:before{content:"";width:2px;height:100%;position:absolute;left:0;right:0;top:0;background:#8e44ad;margin:auto;border-left:1px solid #35233c;border-right:1px solid #583069}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row .row-title,.lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom:before{left:-100px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row span{display:block;width:47%;text-align:right;font-family:'GothamBook';color:#fff;font-size:11px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom span{width:35%}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.hasM3 span{height:20px;line-height:66px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row:not(.custom):nth-child(even) span{margin-left:53%;text-align:left}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row > span:after{content:"";width:7px;height:7px;background:#8e44ad;border-radius:11px;border:4px solid #fff;display:block;position:absolute;left:-20px;right:-20px;top:30px;bottom:0;margin:auto}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom span{padding-top:10px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom span:after{left:-120px!important}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.hasTitle span:after{top:75px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row:nth-child(even) span:after{left:-20px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row ul{margin:0;padding:0;margin-left:55%;padding-left:5px;margin-top:-35px;background:#252528;margin-right:15px;border-radius:5px;position:relative;display:inline-block}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row.custom ul{margin:-44px 0 0 44%;width:225px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row:not(.custom):nth-child(even) ul{margin-right:55%;margin-left:30px;float:right}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row:not(.custom):nth-child(even) ul:before{right:15px;left:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(194,225,245,0);border-left-color:#252528;border-width:8px;margin-top:-8px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row ul:before{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(194,225,245,0);border-right-color:#252528;border-width:8px;margin-top:-8px}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row ul:after{content:"";display:block;clear:both}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row ul li{float:left;width:51px;height:51px;border-radius:51px;position:relative}
+.modal .lastMatchesContent .tab-data .tab-data-right .timeline .timeline-row ul li img{margin:5px auto;display:block}
+
+
+
+.modal-tab-links li{display:inline-block;}
+.modal-tab-links li a{margin-right:40px;color:#696f7a;font-size:27px}
+.modal-tab-links li.active a,
+.modal-tab-links li a:hover{font-family:'GothamMedium';color:#fff;border-bottom:4px solid #00debe; padding:0 0 7px 0;}
+
+.modal{position: absolute; width:1130px; height:850px; left:50%; top:50%; margin: -425px 0 0 -565px;background:none;}
+.modal .lastMatchesContent .tab-data .tab-data-left{width:745px;}
+.modal .tab-data-right{}
+.modal .lastMatchesContent{background:none;}
+.modal .modal-tab-links{}
+.modal .modal-content{background:#181818; margin:25px 0 0 0;}

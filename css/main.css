@@ -1,0 +1,59 @@
+@import url("font.css") screen;
+@import url("animation.css") screen;
+@import url("editPlugin.css") screen;
+@import url("modal.css") screen;
+@import url("reset.css") screen;
+
+/* font name GothamBlack, GothamBold, GothamBook, GothamMedium */
+body{background-image:url('../img/bg.jpg'); background-repeat: no-repeat; background-position: top center; background-size:100% 100%; margin:0; padding:0; font-family: GothamBook;}
+	#wrapper{position: static !important;}
+	/* header start */
+	header{padding:40px 0 0 0;}
+		/* nav start */
+		header nav{float:left; font-size:14.6px; color: #b8bbc4; margin: 10px 0 0 0;}
+		header nav ul{}
+		header nav ul li{float: left; margin:0 10px; position: relative;}
+		header nav ul li.hasList{margin: 0 5px 0 0;padding: 0 11px;}
+		header nav ul li.hasList i{display:none;position: absolute; top:0; right: 0; margin:0px -5px 0 0; font-size: 20px;}
+		header nav ul li.hasList:hover > i,
+		header nav ul li.hasList:hover > a{display: inline-block;color:#22ddbc !important;}
+		header nav ul li:first-child{margin-left: 0;}
+		header nav ul li:last-child{margin-right: 0;}
+
+		header nav ul li a{display: inline-block; color: #b8bbc4}
+		header nav ul li a:hover{color:#fff; border-bottom:solid 2px #22ddbc; padding-bottom:2px}
+		header nav ul li.hasList a:hover{color:#22ddbc;}
+
+		header nav ul li > ul{display: none;position: absolute;}
+		header nav ul li:hover > a,
+		header nav ul li a.active{ border-bottom:solid 2px #22ddbc; padding-bottom:2px;color:#fff;}
+		header nav ul li:hover > ul{display:block; width:110px; font-size:11px; text-align: center; margin:0 0 0 -20px;}
+		header nav ul li:hover > ul li{width: 100%; margin: 0}
+		header nav ul li:hover > ul li a{ border-bottom:solid 1px #696f7a; width:100%; color:#b8bbc4; padding:10px 0}
+		header nav ul li:hover > ul li:last-child a{border:none;}
+		/* logo start */
+		header #logo{margin:0 0 0 -105px; display: inline-block;font-size: 18px; position: absolute; left:50%;}
+		header #logo:hover > span{color:#fff; border:solid 2px #22ddbc;}
+		header #logo span{font-family: GothamBlack; color:#22ddbc; border:solid 2px #fff; padding:5px; display: inline-block; transition: 0.5s; margin:0 5px 0 0;}
+		header #logo strong{
+}
+	/* content start */
+	#content{text-align: center;position:absolute;top:50%;margin-top: -101px;}
+
+		#content .region{width:auto;color: #aaafb7;font-size: 15px;display: inline-block;height: 15px;}
+		#content .region .regionSelect{ border-bottom:solid 2px #22ddbc; transition:0.3s; margin:-2px 0 0 5px;}
+
+		#content .champSearch{width:1100px; margin: 0 auto;}
+		#content .champSearch input{background: none; border:none; width: 100%; text-align: center; color:#22ddbc; font-size: 66.5px; font-family: 'GothamBlack'}
+
+		#content .mainInfo{color:#696f7a; font-size:15px; margin-top:20px; display: inline-block; width: 100%;}
+		#content .newsLetter{width:150px; padding:0 0 7px 0; border-bottom:solid 2px #22ddbc; margin:140px 0 0 0; cursor: pointer; display: inline-block; font-family: 'GothamMedium'; font-size: 13px; letter-spacing: 0.1em; color: #fff; transition: 0.2s;}
+		#content .newsLetter:hover{padding-bottom: 10px;}
+	/* footer start */
+	footer{position: absolute;width: 1100px;bottom: 0 !important;margin: 0 0 40px 0; top:auto !important;}
+	footer .copyRight{font-size:12.5px; color: #55565a;}
+	footer nav{}
+	footer nav ul{}
+	footer nav ul li{float: left; font-size:11.5px; margin-left:20px;}
+	footer nav ul li a{ color: #55565a;}
+	footer nav ul li a:hover{color:#22ddbc; border-bottom:solid 2px #22ddbc;}

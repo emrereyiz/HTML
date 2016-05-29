@@ -1,0 +1,687 @@
+@import url("font.css") screen;
+@import url("animation.css") screen;
+@import url("editPlugin.css") screen;
+@import url("modal.css") screen;
+@import url("reset.css") screen;
+
+
+/* font name GothamBlack, GothamBold, GothamBook, GothamMedium, GothamLight */
+
+/* sub css */
+@import url("sub/champions.css") screen;
+@import url("sub/leagues.css") screen;
+@import url("sub/champions-statics.css") screen;
+@import url("sub/items.css") screen;
+@import url("sub/last-matches.css") screen;
+@import url("sub/leader-boards.css") screen;
+@import url("sub/masteries.css") screen;
+@import url("sub/masteries-sub.css") screen;
+@import url("sub/modal-summoners-data.css") screen;
+@import url("sub/multisearch.css") screen;
+@import url("sub/overview.css") screen;
+@import url("sub/runes.css") screen;
+@import url("sub/runes-sub.css") screen;
+@import url("sub/skills.css") screen;
+@import url("sub/summary.css") screen;
+
+/* role color */
+.colorGrey{color:#aaafb7 !important;}
+.colorOrange{color:#e67e22 !important;}
+.colorGreen{color:#2ecc71 !important;}
+.colorPurple{color:#8e44ad !important;}
+.colorRed{color:#e74c3c !important;}
+.colorAqua{color:#22ddbc !important;}
+.colorBlue{color:#3498db !important;}
+
+.bgGrey{background:#aaafb7 !important;}
+.bgOrange{background:#e67e22 !important;}
+.bgGreen{background:#2ecc71 !important;}
+.bgPurple{background:#8e44ad !important;}
+.bgRed{background:#e74c3c !important;}
+.bgAqua{background:#22ddbc !important;}
+
+
+.bgGreyGra{
+
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99fc54+0,3bff85+100 */
+		background: #99fc54; /* Old browsers */
+		background: -moz-linear-gradient(left,  #3bff85 0%, #99fc54 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  #3bff85 0%,#99fc54 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  #3bff85 0%,#99fc54 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bff85', endColorstr='#99fc54',GradientType=1 ); /* IE6-9 */
+}
+body{background-image:url('../img/subBg.jpg'); background-repeat: no-repeat; background-position: top center; background-color: #242426; background-size: 100% auto; margin:0; padding:0; font-family: GothamBook;}
+	#wrapper{}
+	/* header start */
+	header{padding:40px 0 0 0; position: relative; z-index: 2;}
+		/* nav start */
+		header nav{float:left;font-size: 14px;color: #b8bbc4;position: absolute;right: 0;margin: 10px 160px 0 0;}
+		header nav ul{}
+		header nav ul li{float: left; margin:0 10px; position: relative;}
+		header nav ul li.hasList{margin: 0 5px 0 0;padding: 0 11px;}
+		header nav ul li.hasList i{display:none;position: absolute; top:0; right: 0; margin:0px -5px 0 0; font-size: 20px;}
+		header nav ul li.hasList:hover > i,
+		header nav ul li.hasList:hover > a{display: inline-block;color:#22ddbc;}
+		header nav ul li:first-child{margin-left: 0;}
+		header nav ul li:last-child{margin-right: 0;}
+
+		header nav ul li a{display: inline-block; color: #b8bbc4}
+		header nav ul li a:hover{color:#fff; border-bottom:solid 2px #22ddbc; padding-bottom:2px}
+		header nav ul li.hasList a:hover{color:#22ddbc;}
+
+		header nav ul li > ul{display: none;position: absolute;}
+		header nav ul li:hover > a,
+		header nav ul li .active{ border-bottom:solid 2px #22ddbc; padding-bottom:2px;color:#fff;}
+		/*header nav ul li:hover > ul{display:block;width: 139px;text-align: center;margin: 0 0 0 -31px;}*/
+		header nav ul li.hasList:hover > ul{z-index:999;display:inline-block;left:0;top:0;float:left;width: 140px;text-align: center;margin: 20px 0 0 -23px;}
+		header nav ul li:hover > ul li{width: 100%; margin: 0}
+		header nav ul li:hover > ul li a{ border-bottom:solid 1px #696f7a; width:100%; color:#b8bbc4; padding:10px 0}
+		header nav ul li:hover > ul li:last-child a{border:none;}
+		/* logo start */
+		header #logo{margin:0 0 0 0; display: inline-block;font-size: 18px; position: absolute; left:0;}
+		header #logo:hover > span{color:#fff; border:solid 2px #22ddbc;}
+		header #logo span{font-family: GothamBlack; color:#22ddbc; border:solid 2px #fff; padding:5px; display: inline-block; transition: 0.5s; margin:0 5px 0 0;}
+		header #logo strong{}
+		/* topLang start */
+		.topLang select{width: 126px;}
+	/* content start */
+	#content{text-align: left;width: 100%; position: relative; z-index: 1;}
+		.alignMiddle{position: absolute; top: 50%;}
+		#content #championSearch,
+		#content #championStatistics{display: inline-block; width: 100%; margin:110px 0 0 0;}
+
+		.lineTitle{font-family: 'GothamBold';color: #22ddbc; border-bottom:solid 1px #696f7a; padding: 0 0 10px 0; width: 100%; position: relative;}
+		.lineTitle h3, .lineTitle h4{font-family: 'GothamBold';color: #22ddbc; font-weight: normal; font-size:26.5px;}
+		.lineTitle span{position: absolute; background-color: #22ddbc;left: 0; width:240px; height: 3px; bottom: 0; margin:0 0 -2px 0;}
+		.subTitle span{width: 60px; margin:0 0 -2px 8px !important; height: 4px}
+		.subTitle h4 span.lighter{position: relative !important; background:none;color:#aaafb7!important;margin:0 !important; padding: 0 !important;}
+		.subTitle h4{font-size:15.5px; color: #696f7a; font-family:'GothamMedium'; padding: 0 0 0 7px;}
+		#content .rateBox{position: relative;}
+
+/*
+			.lineTitle{font-family: 'GothamBold';color: #22ddbc; border-bottom:solid 1px #696f7a; padding: 0 0 10px 0; width: 100%; position: relative;}
+			.lineTitle h3{ font-size:26.5px;}
+			.lineTitle span{position: absolute; background-color: #22ddbc;left: 0; width:240px; height: 3px; bottom: 0; margin:0 0 -2px 0;}
+			#content .lineTitle{width: 100%; border-bottom:solid 1px #696f7a !important; margin-bottom: 8px;}
+
+
+
+			#content #championRate .rateBox .lineTitle h3,
+			#content #runeContent #runeRight h3,
+			#content #championStatistics #statisticBottom .lineTitle h3 {padding-left: 8px; }
+
+			#content #championRate .rateBox .lineTitle h4,
+			#content #championRate #championStats .lineTitle h4,
+			#content #runeContent #runeRight .lineTitle h3,
+			#content #leaguesContent #championStats .lineTitle h4,
+			#content #championStatistics #statisticBottom .lineTitle h3,
+			#content .champion-statics-row .lineTitle h4,
+			#content .master-ranks-list .lineTitle h4,
+			#content .search-result .lineTitle h4{font-family: 'GothamMedium'; color:#696f7a; font-size: 15.5px;}
+
+			#content #championRate .rateBox .lineTitle span,
+			#content #runeContent #runeRight .lineTitle span,
+			#content #leaguesContent .lineTitle span,
+			#content #championStatistics .lineTitle span,
+			#content .champion-statics-row .lineTitle span,
+			#content .master-ranks-list-item .lineTitle span,
+			#content .recently-played .lineTitle span,
+			#content .modal-content #championRate .lineTitle span{width: 60px; margin:0 0 -2px 8px !important; height: 4px}
+*/
+			#content #championRate .lineTitle a.show-all { float: right; position: absolute; top: 0; right: 0; font-family: 'GothamBook'; color:#696f7a; font-size:15px;}
+
+
+			#content #championSearch ul{float: left; font-size: 12.8px; margin:45px 0 0 0;}
+			#content #championSearch ul li{float: left;}
+			#content #championSearch ul li a{padding: 8px 10px; display: inline-block; border-radius: 8px; margin:0 6px 0 0; text-align: center;}
+
+			#content #championSearch ul li a.all{width: 16px;}
+			#content #championSearch ul li a.top{width: 23px;}
+			#content #championSearch ul li a.jungle{width: 42px;}
+			#content #championSearch ul li a.mid{width: 22px;}
+			#content #championSearch ul li a.adc{width: 29px;}
+			#content #championSearch ul li a.support{width: 51px;}
+
+
+			#content #championSearch ul li a:hover{color:#242426 !important; font-family: 'GothamBold'}
+
+			#content #championSearch ul li a.borderGrey{color:#aaafb7; border:solid 1px #aaafb7;}
+			#content #championSearch ul li a.borderGrey:hover{background-color:#aaafb7;}
+
+			#content #championSearch ul li a.borderOrange{color: #e67e22; border:solid 1px #e67e22;}
+			#content #championSearch ul li a.borderOrange:hover{background-color:#e67e22;}
+
+			#content #championSearch ul li a.borderGreen{color:#2ecc71; border:solid 1px #2ecc71;}
+			#content #championSearch ul li a.borderGreen:hover{background-color:#2ecc71;}
+
+			#content #championSearch ul li a.borderPurple{color: #8e44ad; border:solid 1px #8e44ad;}
+			#content #championSearch ul li a.borderPurple:hover{background-color:#8e44ad;}
+
+			#content #championSearch ul li a.borderRed{color: #e74c3c; border:solid 1px #e74c3c;}
+			#content #championSearch ul li a.borderRed:hover{background-color:#e74c3c;}
+
+			#content #championSearch ul li a.borderAqua{color:#22ddbc; border:solid 1px #22ddbc;}
+			#content #championSearch ul li a.borderAqua:hover{background-color:#22ddbc;}
+
+
+			#content .info{margin:53px 0 0 20px; float: left; color: #aaafb7;font-size:12.8px;}
+			#content input{border:solid 1px #969ca4;background:none;width: 100%;color:#969ca4;padding: 10.5px;margin: 15px 0 0 0;border-radius: 8px;background-image: url('../img/championSearch.png');background-repeat: no-repeat;background-position: top 8px right 15px;box-sizing: border-box;}
+			#content .info-bottom {margin:16px 0 0 0 !important; float:right !important;}
+
+
+			#content #championSearch .championSlide{margin:50px 0 0 100px; width: 970px;}
+			#content #championSearch .championSlide li{margin:25px 0 0 0;}
+			#content #championSearch .championSlide li a{}
+			#content #championSearch .championSlide li a:hover{font-family: 'GothamBook'}
+
+			#content #championSearch .championSlide img{opacity: 0.4; width: 85px; height: 85px; border-radius: 100px;}
+			#content #championSearch .championSlide img:hover{opacity: 1;}
+			#content #championSearch .championSlide span.champName{color: #696f7a; font-size:14.5px; font-family: 'GothamMedium'; margin:10px 0 0 0; display: inline-block;}
+
+			#content #championSearch .championSlide .champRole{display: none; color:#696f7a;}
+			#content #championSearch .championSlide .champRole span{}
+
+			#content #championSearch .championSlide span.roleGrey{color:#aaafb7;}
+			#content #championSearch .championSlide span.roleOrange{color:#e67e22;}
+			#content #championSearch .championSlide span.roleGreen{color:#2ecc71;}
+			#content #championSearch .championSlide span.rolePurple{color:#8e44ad;}
+			#content #championSearch .championSlide span.roleRed{color:#e74c3c;}
+			#content #championSearch .championSlide span.roleAqua{color:#22ddbc;}
+
+			/* active champSlide */
+			#content #championSearch .championSlide .center{}
+			#content #championSearch .championSlide .center li{margin:0 0 0 -28px; z-index: 99;}
+			#content #championSearch .championSlide .center img{width: 140px;height: 140px;opacity: 1;}
+			#content #championSearch .championSlide .center span.champName{color: #fff; font-size: 30px;}
+			#content #championSearch .championSlide .center .champRole{display: block;}
+/*
+			.swiper-container {
+			        width: 100%;
+			        height: 100%;
+		   	}
+		    .swiper-slide {
+		        text-align: center;
+		        font-size: 18px;
+		        background: #fff;
+		        display: -webkit-box;
+		        display: -ms-flexbox;
+		        display: -webkit-flex;
+		        display: flex;
+		        -webkit-box-pack: center;
+		        -ms-flex-pack: center;
+		        -webkit-justify-content: center;
+		        justify-content: center;
+		        -webkit-box-align: center;
+		        -ms-flex-align: center;
+		        -webkit-align-items: center;
+		        align-items: center;
+		    }*/
+
+
+
+			/*#content #championRate{margin: 230px 0 0 0;}*/
+			#content #championRate .rateBox{width:377px; float: left; margin-left:19px;}
+			#content #championRate .rateBox:first-child{margin-left:0;}
+
+
+
+			#content .rateBox .rateRow{padding: 12px 0 12px 15px;font-family: 'GothamMedium';width: 377px;display: inline-block;border-bottom:solid 1px #373a40; box-sizing: border-box;}
+			#content .rateBox .rateRow:last-child{border-bottom: none;}
+			#content .rateBox .rateRow img{}
+			#content .rateBox .rateRow .rateInfo{margin: 13px 0 0 15px;float: left;line-height: 14px;width: 258px;}
+			#content .rateBox .rateRow .rateInfo .champName{float: left;display: inline-block;font-size: 15.5px;color:#696f7a;width: 63px;}
+			#content .rateBox .rateRow .rateInfo .champName span{width: 100%; display: inline-block; font-size: 10px;}
+
+
+
+
+			#content .champBar{width: 162px;}
+			#content .champBar .rateVal{color: #696f7a;font-size:13.5px;margin: 2px 0 0 0;display: inline-block;}
+			#content .champBar .rateCont{position: relative;border-radius: 5px; overflow: hidden; width: 103px; height: 21px;}
+			#content .champBar .rateCont .rateBar{position: absolute;left: 0; top: 0; width: 0; height: 100%; background-color: #fff; transition:1s;}
+			#content .champBar .rateCont .rateBg{width:100%; height: 100%; display: inline-block; background-color: #000;}
+/*
+			#content #championRate .rateBox .rateTable,
+			#content #championRate #championStats .statTableContent .statTable,
+			#content #leaguesContent #championStats .statTableContent .statTable,
+			#content .champion-statics-row .rateTable,
+			#content .master-ranks-list .rateTable,
+			#content .search-result .rateTable{color: #696f7a; width: 100%; text-align: center;}
+
+			#content #championRate .rateBox .rateTable .rateTitle,
+			#content #championRate #championStats .statTableContent .statTable .rateTitle,
+			#content #leaguesContent #championStats .statTableContent .statTable .rateTitle,
+			#content .champion-statics-row .rateTable,
+			#content .master-ranks-list .rateTable,
+			#content .search-result .rateTable{font-family: 'GothamMedium';font-size: 13px;border-bottom: solid 1px #696f7a;padding: 5px 0 13px 0;display: inline-block;width: 100%; float: left}
+*/
+			#content .master-ranks-list .rateTable,
+			#content .search-result .rateTable{border:none;}
+
+
+			#content .rateTable table{color: #696f7a;}
+			#content .rateTable thead, table thead{font-family: 'GothamMedium'; font-size:13px; cursor: pointer;color: #696f7a; text-align: center;}
+			#content .rateTable thead td, table thead td{padding: 15px 0;}
+			#content .rateTable thead i, table thead i{margin:0 0 0 5px;  font-size: 15px;}
+			#content .rateTable tbody, table tbody{font-family: 'GothamBold'; font-size: 14px;}
+			#content .rateTable tbody td, table tbody td{padding: 15px 0; text-align: center;}
+			#content .rateTable .slimScrollDiv{border-top:solid 1px #696f7a; height: 100% !important;}
+			#content .dataTables_scrollBody{ height: 100% !important; }
+
+
+			/*#content #championRate .rateBox .rateTable .rateTitle span,
+			#content #championRate #championStats .statTableContent .statTable .rateTitle span,
+			#content #leaguesContent #championStats .statTableContent .statTable .rateTitle span,
+			#content .champion-statics-row .rateTitle span,
+			#content .master-ranks-list .rateTitle span,
+			#content .search-result .rateTitle span{display: inline-block;background-image:url('../img/tableSort.png');background-repeat: no-repeat;background-position: top 5px right 0;cursor: pointer;float: left;padding: 0 7px 0 0;}
+			*/
+
+			#content #championRate .rateBox .rateTable .rateContent .rateRow,
+			#content .master-ranks-list .rateBox .rateTable .rateContent .rateRow{padding: 12px 0 12px 0;width: 340px;}
+			#content #championRate .rateBox .rateTable .rateContent .rateRow span,
+			#content .master-ranks-list .rateBox .rateTable .rateContent .rateRow span,
+			#content .search-result .rateBox .rateTable .rateContent .rateRow span{float: left; font-family: 'GothamBold'; font-size: 12.8px;}
+
+			.rateTitle .desc{background-position-y:-35px !important;}
+
+
+
+
+
+
+
+
+
+
+
+		.detailContent{}
+			.detailContent #detailTop{ text-align: center; margin: 0 0 0 0;}
+			.detailContent #detailTop .detailName{font-family: 'GothamBlack'; color: #fff; margin: 0 auto; display: inline-block;}
+				.detailContent #detailTop .detailName img{display: inline-block; margin: 13px 0 0 0; float: left;}
+				.detailContent #detailTop .detailName h2{font-size: 56px; margin:0 15px;display: inline-block;}
+				.detailContent #detailTop .detailName div.status{font-size: 17px; color: #91fc58;display: inline-block;float: right; margin: 25px 0 0 0;}
+				.detailContent #detailTop .detailName div.status span{background-color: #77fd66; width: 17px; height: 17px; float: left; border-radius: 100%; margin: 2px 5px 0 0;}
+
+				.detailContent #detailTop .mainInfo{color:#aaafb7; font-size:15px; margin-top:20px; display: inline-block; width: 100%;}
+				.detailContent #detailTop ul{ font-size: 14.5px; font-family: 'GothamBold'; cursor: pointer; margin:-20px 0 0 0; position: relative; z-index: 1;}
+				.detailContent #detailTop ul li{float: left;margin: 0 5px 0 0; }
+				.detailContent #detailTop ul li:last-child{margin-right: 0;}
+				.detailContent #detailTop ul li a{padding: 3px 10px;border-radius: 3px; display: inline-block;}
+				.detailContent #detailTop ul li a:hover{color: #fff !important;}
+
+				.detailContent #detailTop ul li a.colorGrey{border:solid 1px #bdc3c7;}
+				.detailContent #detailTop ul li a.colorOrange{border:solid 1px #e67e22;}
+				.detailContent #detailTop ul li a.colorBlue{border:solid 1px #3498db;}
+
+				.detailContent #detailTop ul li a.colorGrey:hover{background-color: #bdc3c7;}
+				.detailContent #detailTop ul li a.colorOrange:hover{background-color: #e67e22;}
+				.detailContent #detailTop ul li a.colorBlue:hover{background-color: #3498db;}
+
+				.detailContent #detailTop .detailCol{float: left; text-align: left; margin:50px 0 0 35px;}
+				.detailContent #detailTop .detailCol h3{font-family: 'GothamBold'; font-size: 18px; color: #fff; border-bottom: solid 1px #696f7a; padding: 0 0 6px 0;}
+
+				.detailContent #detailTop .level figure{font-family: 'GothamLight';font-size: 63px;margin: 23px 0 30px 50px;}
+				.detailContent #detailTop .level .levelText{text-align: center; padding: 0 20px 0 0;}
+				.detailContent #detailTop .level .levelText span{color: #fff; font-family: 'GothamBold'; display: inline-block;width: 100%; font-size: 17px;}
+				.detailContent #detailTop .level .levelText .topText{}
+				.detailContent #detailTop .level .levelText .midText{font-family: 'GothamLight';}
+				.detailContent #detailTop .level .levelText .botText{font-size:20.5px;}
+
+				.detailContent #detailTop .stats h3 span, .detailContent #detailTop .rank h3 span{font-size: 13.2px; color: #aaafb7; font-family: 'GothamBook'; display: inline-block; margin:0 0 0 5px;}
+				.detailContent #detailTop .rank h3 span{margin: 5px 5px 0 10px;}
+				.detailContent #detailTop .rank h3 span.blue,
+				.detailContent #detailTop .rank h3 span:hover{color: #00debe; cursor: pointer;}
+
+
+
+				.detailContent #detailTop .level{width: 302px;}
+				.detailContent #detailTop .stats{width: 495px;}
+				.detailContent #detailTop .rank{width: 302px;}
+
+
+				.detailContent #detailTop .stats h3{}
+				.detailContent #detailTop .stats h3 span{}
+
+				.detailContent #detailTop .stats .statTop{display: inline-block; width: 100%; margin:10px 0 0 0;}
+				.detailContent #detailTop .stats .statTop .rate{font-family: 'GothamBold'; color:#fff; font-size: 70px; text-align: center; width: 100%;}
+				.detailContent #detailTop .stats .statTop .rate span{display: inline-block; border-bottom: solid 6px #00debe;}
+				.detailContent #detailTop .stats .statTop .rateBot{margin: 20px 0 0 0;}
+				.detailContent #detailTop .stats .statTop .rateBot span{text-align: center; display: inline-block; width: 100%;}
+				.detailContent #detailTop .stats .statTop .rateBot span.title{font-family: 'GothamBlack';font-size: 13px; color: #fff;}
+				.detailContent #detailTop .stats .statTop .rateBot span.text{color:#aaafb7; font-size: 42px; margin:6px 0 0 0;}
+				.detailContent #detailTop .stats .statTop .rateBot .rateKD,
+				.detailContent #detailTop .stats .statTop .rateBot .winRate,
+				.detailContent #detailTop .stats .statTop .rateBot .kpm{width:165px; float: left;}
+
+				.detailContent #detailTop .stats .statTop .rateBot .rateKD{}
+				.detailContent #detailTop .stats .statTop .rateBot .winRate{}
+				.detailContent #detailTop .stats .statTop .rateBot .kpm{}
+
+				.detailContent #detailTop .stats .statBottom{}
+				.detailContent #detailTop .stats .statBottom .statLeft{width: 247.5px; float: left; color: #fff; font-family: 'GothamBold'; margin:38px 0 0 0;}
+
+				.detailContent #detailTop .stats .statBottom .statLeft span{float: left;}
+				.detailContent #detailTop .stats .statBottom .statLeft .status{font-family: 'GothamBook'; font-size: 13px}
+				.detailContent #detailTop .stats .statBottom .statLeft .champName{color: #00debe; font-size: 33px; margin:-2px 0 0 0;}
+				.detailContent #detailTop .stats .statBottom .statLeft .date{ font-size: 50px; margin: -10px 0 0 0;}
+
+				.detailContent #detailTop .stats .statBottom .statRight{width: 245.5px;float: right;position: relative;height: 232px;}
+				.detailContent #detailTop .stats .statBottom .statRight img{float: right; position: absolute;right: 0; bottom: 0;}
+
+				.detailContent #detailTop .rank {color: #fff;}
+				.detailContent #detailTop .rank .league{width: 100%;text-align: center;display: inline-block; margin: 40px 0 0 0;}
+				.detailContent #detailTop .rank .league img{display: inline-block;}
+				.detailContent #detailTop .rank .leagueText {text-align: center;}
+				.detailContent #detailTop .rank .leagueTextCont {font-family: 'GothamBold';font-size: 17px;text-align: center;display: inline-block;margin: 30px 0 0 0;}
+				.detailContent #detailTop .rank .leagueTextCont .leagueStat{}
+				.detailContent #detailTop .rank .leagueTextCont .winLose{font-size: 15px;}
+				.detailContent #detailTop .rank .leagueTextCont .winLose .win{color: #2ecc71;}
+				.detailContent #detailTop .rank .leagueTextCont .winLose .lose{color: #e74c3c;}
+				.detailContent #detailTop .rank .leagueTextCont .winLose strong{}
+				.detailContent #detailTop .rank .leagueTextCont .winLose span{font-family: 'GothamBook';}
+				.detailContent #detailTop .rank .leagueTextCont .point{color: #aaafb7; font-size: 12px;font-family: 'GothamBook';}
+				.detailContent #detailTop .rank .leagueTextCont .league{display: inline-block;width: 100%; margin: 0;}
+
+				#detailBottom{margin: 130px 0 0 0;}
+
+				 ul.tabList{font-family: 'GothamBook';font-size: 17px;border-bottom: solid 1px #4d5158;display: inline-block;width: 100%;margin: 0 0 55px 0;}
+				 ul.tabList li{float: left;margin: 0 30px 0 0;}
+				 ul.tabList li a{display: inline-block;padding: 0 0 18px 0;transition:0s;color: #b8bbc4;position: relative;}
+				 ul.tabList li a:hover,
+				 ul.tabList li.active a{color: #fff;}
+				 ul.tabList li a i {display: none;}
+				 ul.tabList li a:hover > i,
+				 ul.tabList li.active a > i{position: absolute; display: block; left:50%; bottom:0; margin:0 0 -8px -5px; color:#5b6069; font-size:25px;}
+				.tabContent{display: none;}	
+
+
+
+
+				/* Champion Statistics Start */
+				#content #championStatistics{}
+				#content #championStatistics #statisticTop{width: 100%; display: inline-block;margin:70px 0 0 0; min-height:600px;}
+				#content #championStatistics #statisticTop #champInfo{width:586px; font-family: 'GothamBold'; color:#fff; font-size: 28.3px;}
+				#content #championStatistics #statisticTop #champInfo h4{ color:#fff; font-size: 28.3px;}
+				#content #championStatistics #statisticTop #champInfo img{width:108px; height: 108px;}
+				#content #championStatistics #statisticTop #champInfo .champSkills{display: inline-block; margin: 0 0 0 10px;}
+				#content #championStatistics #statisticTop #champInfo .champSkills h4{display: inline-block; width: 100%; margin:0 0 0 0;}
+				#content #championStatistics #statisticTop #champInfo .champSkills ul{float: left; margin:15px 0 0 0;}
+				#content #championStatistics #statisticTop #champInfo .champSkills ul li,
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li{width:55px; height: 56px; float: left; position: relative;margin: 0 13px 0 0;}
+				#content #championStatistics #statisticTop #champInfo .champSkills li::after{width: 25px;height: 25px;position:absolute;right:0;bottom:0;content:"";background-color:#22ddbc;border-radius:100%;margin: 0 -2px -4px 0;}
+				#content #championStatistics #statisticTop #champInfo .champSkills ul li img{width: 100%; height: 100%;}
+				#content #championStatistics #statisticTop #champInfo .champSkills ul li span,
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li span{position: absolute;bottom: 0;right:0;z-index: 1;font-size: 17px;margin:0 2px -3px 0;}
+
+
+				.chartCont{width:570px; float: right;margin:0 0 80px 0;}
+				.chartCont .subTitle{margin:0 0 30px 0;}
+
+
+
+				/* html'i yazÃ„Â±lmadÃ„Â± */
+				#content #championStatistics #statisticBottom{}
+				#content #championStatistics #statisticBottom #abilityCont{width: 700px;}
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills{color:#fff;}
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li{width:45px; height: 45px; margin-right: 40px;}
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li img{width:100%; height: 100%;}
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li span{font-size: 13.3px;font-family: 'GothamBold'; margin-bottom:-2px;}
+				#content #championStatistics #statisticBottom #abilityCont ul.champSkills li:not(:last-child):after {content: "";display: block;position: absolute;top: 16px;left: 62px;width: 40px;height: 16px;text-align: center;color: #676d78;font-size: 16px;font-family: 'GothamMedium';background-image:url('../img/skills-arrow.png');background-repeat: no-repeat;}
+
+				#content #championStatistics #statisticBottom #abilityCont .buildRate{width: 260px;border:Solid 1px red;}
+				#content #championStatistics #statisticBottom #abilityCont .buildRate .champBar{float:left;width: 128px;}
+				#content #championStatistics #statisticBottom #abilityCont .buildRate .champBar .rateCont{}
+				#content #championStatistics #statisticBottom #abilityCont .buildRate .champBar .rateCont .rateBar{height: 11px;width:28px;background: red;/* display: inline-block; */position:absolute;}
+				#content #championStatistics #statisticBottom #abilityCont .buildRate .champBar .rateCont .rateBg{width:103px;height: 11px;display: inline-block;background: #252528;}
+				#content #championStatistics #statisticBottom #abilityCont .buildRate .champBar .rateText{display: inline-block; width: 100%;}
+
+
+
+.c_win-rate {
+    width:134px;
+    height:17px;
+    display: block;
+    background: #111111;
+    border-radius:15px;
+    position: absolute;
+    right:50px;
+    top:25px;
+    bottom:0;
+    margin:auto;
+}
+
+.c_win-rate div {
+    height:17px;
+    border-radius:15px;
+    background: #2ecc71;
+}
+
+.c_win-rate div.warning {
+    background: #e67e22;
+}
+
+.c_win-rate div.error {
+    background: #e74c3c;
+}
+
+.c_win-rate span {
+    color: #696f7a;
+    font-size:16px;
+    font-family:'GothamLight';
+    display: block;
+    text-align:center;
+    padding:5px 0;
+}
+
+.skillsItem:after {
+    display: block;
+    content: "";
+    clear:both;
+}
+
+
+
+
+.skillRight .abilities-table {width: 710px;background-image: url('../img/skills-bg.png');background-position: top 47px left 42px;background-repeat: no-repeat;}
+
+.skillRight .abilities-table thead tr td {font-size: 14.5px;}
+
+.skillRight .abilities-table td {text-align: right;width: 37px;color: #696f7a;font-size: 18.5px;font-family: 'GothamBook';position: relative;}
+
+.skillRight .abilities-table thead td {
+    text-align: center !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.skillRight .abilities-table tbody td:first-child,
+.skillRight .abilities-table thead tr td {
+    border: none;
+    padding: 7px 10px;
+}
+
+.skillRight .abilities-table tbody td:first-child {
+    text-align: center;
+}
+
+.skillRight .abilities-table td img {
+    /* margin-right: 6px; */
+    /* margin-top: 10px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 3px 0px 0 6px;
+    width: 25px;
+    height: 26px;
+}
+
+
+
+
+
+			#content #championSearch .info {margin: 53px 0 0 0;float: left;color: #aaafb7;font-size: 12.8px;}
+			#content .master-ranks-list {width: 100%;margin-top: 150px;}
+
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateTitle{border-bottom:solid 1px #696f7a; display: inline-block; padding: 0 0 15px 0; width: 100%;}
+			#content .master-ranks-list .master-ranks-list-item.focus-item .rateBox .rateTable .rateTitle{border-bottom:solid 1px #22DDBC;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateTitle span{float:left; width: auto !important; background-position: top 4px right 0; padding: 0 15px 0 0 ; margin:0 8px;}
+				#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateTitle span.rateID { margin:0 0 0 40px;}
+				#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateTitle span.rateWinRatio {float: right; margin:0 5px 0 0;}
+
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow{border-bottom:none; padding: 15px 0}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span{background:none;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent span{margin:0 0 0 5px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent span.rateID { margin:0 0 0 23px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent span.rateWinRatio {width: 40px; margin: 0; float: right;}
+
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span.rateID{width:20px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span.rateSummoner{width:100px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span.rateWin{width:55px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span.rateLose{width:45px;}
+			#content .master-ranks-list .master-ranks-list-item .rateBox .rateTable .rateContent .rateRow span.rateWinRatio{margin-right: 10px}
+
+
+
+
+
+
+
+
+
+
+
+			.champion-statics #content{margin-top:500px}
+			.champion-statics .champion-statics-row{width:100%}
+			.champion-statics .champion-statics-row .row-left{width:705px;margin-right:85px;float:left}
+			.champion-statics .champion-statics-row .row-left .rateBoxes{float:left;width:315px;margin-left:40px}
+			.champion-statics .champion-statics-row .row-right{width:375px;float:left}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-state-list img{width:45px;height:45px;float:left}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-state-list .fa{font-size:25px;color:#fff;display:block;margin:12px 11px;float:left}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-table{color:#696f7a;width:700px;background:url(../img/champion-statics-table-row-bg.png) right center repeat-y}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-table tr td,.champion-statics .champion-statics-row .most-ability-sequence .rank-table tr th{width:24px;height:30px;padding:0 6px;text-align:center}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-table tr th{font-size:13px;background:#242426}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-table tr td:first-child{font-size:17px}
+			.champion-statics .champion-statics-row .most-ability-sequence .rank-table tr td img{margin-top:3px}
+			.champion-statics .rateBox.aatrox-master-rank .rateTable .rateContent{height:160px!important}
+			.champion-statics .rateBox.aatrox-master-rank .rateTable .rateSummoner{margin-left:80px!important}
+			.champion-statics .rateBox.aatrox-master-rank .rateTable .rateGames{margin-left:80px}
+			.champion-statics .rateBox.most-core-builds{width:315px!important}
+			.champion-statics .rateBox.most-core-builds .rateTitle span{padding-right:6px!important;margin:0;padding-left:7px!important}
+			.champion-statics .rateBox.most-core-builds .rateBuild{width:80px!important}
+			.champion-statics .rateBox.most-core-builds .rateItems{width:125px}
+			.champion-statics .rateBox.most-core-builds .rateItems .rank-state-list{width:125px}
+			.champion-statics .rateBox.most-core-builds .rateItems .rank-state-list *{float:left}
+			.champion-statics .rateBox.most-core-builds .rateItems .rank-state-list .fa{margin:10px 5px 0;font-size:12px}
+			.champion-statics .rateBox.most-core-builds .rateWin{width:70px}
+			.champion-statics .rateBox.most-boots{width:315px!important;margin-left:0!important}
+			.champion-statics .rateBox.most-boots .rateTitle span{padding-right:6px!important;margin:0;padding-left:7px!important}
+			.champion-statics .rateBox.most-boots .rateContent{height:100px!important}
+			.champion-statics .rateBox.most-boots .rateBuild{width:50px}
+			.champion-statics .rateBox.most-boots .rateItems{width:125px}
+			.champion-statics .rateBox.most-boots .rateItems img{float:left}
+			.champion-statics .rateBox.most-boots .rateItems .text{margin-top:8px}
+			.champion-statics .rateBox.most-boots .rateWin{width:84px}
+			.champion-statics .rateBox.most-boots .champBar{width:84px}
+			.champion-statics .rateBox.most-boots .champBar span{padding:0;margin:0}
+			.champion-statics .rateBox.most-boots .champBar .rateCont{width:84px}
+			.champion-statics .rateBox.most-keystone{margin-top:40px}
+
+			#content .subPageSelect{margin:0 0 20px 0; display: inline-block; }
+			#content .subPageSelect .listArea{display:inline-block;border:solid 1px #90949b; border-radius:7px; padding:7px 10px 7px 15px; margin:0 0 0 10px;}
+			#content .subPageSelect .listArea .listText{color:#dfe3ec !important; font-size:14px !important;font-family:'GothamBook' !important;}
+			#content .subPageSelect .listArea i{color:#dfe3ec !important; font-size:20px;display:inline-block; margin:0px 0 0 40px; float:right;}
+			#content .subPageSelect .listArea .listItems{padding:40px 0 0 15px;}
+			#content .subPageSelect .listArea .listItems .listItem{display:inline-block; width:100%; padding:5px 0;color:#dfe3ec;font-family:'GothamBook' !important; font-size:14px !important;}
+			#content .subPageSelect .listArea .listItems .listItem:hover{color:#fff !important;}
+
+
+			#content .rateBox .listArea{position:Absolute; right:0; top:0; font-size:11px; color:#22ddbc; margin:5px 5px 0 0;}
+			#content .rateBox .listArea .listItems{padding:20px 0 0 0;}
+			#content .rateBox .listArea .listItems .listItem{color:#fff; padding:5px 0; display:inline-block;}
+			#content .rateBox .listArea .listItems .listItem:hover{font-weight:bold;}
+			#content .rateBox .listArea i{font-size:15px !important; font-weight:bold !important; display:inline-block; float:right; padding:0 0 0 10px;}
+
+
+/* person 3 */
+.tabContent{/*position:relative; display: inline-block;*/ min-height: 700px;}
+.tabContent.active{display:block!important}
+
+
+
+.statistics-detail-right{width:584px}
+
+/*
+table ,tr td{
+}
+tbody {
+    display:block;
+    height:50px;
+    overflow:auto;
+    font-family: 'GothamBold';
+    font-size:14px;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+thead {
+    width: calc( 100% - 1em );
+    font-size:13.2px;
+    font-family: 'GothamMedium';
+}
+thead i{}
+table {
+    width:400px;
+}
+th,td{padding:0 !important; margin:0 !important	;}
+*/
+
+
+
+
+/* person 3 end */
+
+	/* charts */
+	/*.highcharts-container svg{background-image:url('../img/chart-bg-01.png'); background-repeat:repeat; background-position: 60px 40px;}*/
+	/*.highcharts-grid path{border:Solid 1px red;display: none;}*/
+
+
+	/* footer start */
+	footer{height: auto;position: absolute;left: 0;width: 100%;background-repeat: no-repeat;background-position: top center;border-top: solid 1px #424242;margin: 200px 0 0 0; padding: 20px 0;}
+	footer .siteW{margin-top: 20px;}
+	footer .copyRight{font-size:11.3px; color: #55565a;}
+	footer nav{}
+	footer nav ul{}
+	footer nav ul li{float: left; font-size:11.5px; margin-left:20px;}
+	footer nav ul li a{ color: #55565a;}
+	footer nav ul li a:hover{color:#22ddbc; border-bottom:solid 2px #22ddbc;}
+
+
+
+
+article .btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    padding: 0 0;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+article .btn-circle:hover,
+article .btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+article .btn-circle:hover > i{margin:30px 0 0 0; transition:0.5s;}
+
+article .btn i{margin:17px 0 0 0;}

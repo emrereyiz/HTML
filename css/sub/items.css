@@ -1,0 +1,49 @@
+.pageItems .rateTable{height: 100px;}
+.pageItems .rateTable img{width:33px;}
+
+.mostBoots .itemTable .items{width:100px !important;}
+
+.mostBoots .itemTable .text{margin:8px 0 0 5px; font-size: 11px; float:left;}
+
+
+
+
+.mostFinalItem .itemTable .items{width:155px;}
+.mostFinalItem .itemTable .text{margin:8px 0 0 5px; font-size: 11px; float:right;}
+.mostFinalItem .itemTable .text{font-size: 13px !important; font-family: 'GothamBook'; color: #696f7a;}
+
+.itemTable img,
+.itemTable .items i,
+.itemTable .text{float: left;}
+
+.itemTable i{margin:5px 5px;}
+
+.itemTable{ width:377px;}
+.itemTable .items{width:140px; margin:0 auto; display: inline-block;}
+
+
+
+
+/*
+.pageItems .rateBox .rateTable .rateTitle span{width:auto; margin:0 55px;}
+.pageItems .rateBox .rateTable .rateTitle span.buildRate{float:left; margin:0 0 0 10px;}
+.pageItems .rateBox .rateTable .rateTitle span.rateWin{float:right;margin:0 55px 0 0;}
+
+.pageItems .rateBox .rateTable .rateContent .rateRow span.buildRate{padding:8px 0 !important;}
+.pageItems .rateBox .rateTable .rateContent .rateRow span{width:25%!important;margin:0!important;padding:0!important}
+.pageItems .rateBox .rateTable .rateContent .rateRow span.rateWin{line-height:50px;;}
+.pageItems .rateBox .rateTable .rateContent .rateRow span:nth-child(2){width:50%!important}
+.pageItems .rateBox .rateTable .rateContent .rateRow{margin:0;padding:0}
+.pageItems .rateBox .rateTable .rateContent .rateRow .items ul li{display:inline-block;padding:0 8px;position:relative}
+.pageItems .rateBox .rateTable .rateContent .rateRow .items ul li:not(:last-child):after{content:">";position:absolute;right:-7px;top:9px;bottom:0}
+.pageItems .rateBox .rateTable .rateContent .rateRow .items ul li img{width:33px;float:left}
+.pageItems .rateBox .rateTable .rateContent .rateRow .items ul li span{font-family:'GothamLight';font-size:13px;width:auto!important;line-height:32px;padding:0 5px!important}
+.pageItems .rateBox .rateTable .rateContent .rateRow .win-rate{background:#181818;border-radius:15px;width:75px;height:13px;margin-top:7px}
+.pageItems .rateBox .rateTable .rateContent .rateRow .win-rate > div{background:#696f7a;border-radius:15px;height:13px}
+.pageItems .rateBox .rateTable .rateContent .rateRow .win-rate span{text-align:center;display:block;width:auto!important;float:none;margin-top:-5px!important;font-size:13px}
+*/
+
+.itemTable .rateVal{color: #696f7a;font-size:13.5px;margin: -5px 0 0 5px !important;display: inline-block; position: absolute; left: 0; width: 100%; font-size: 13px;}
+.itemTable .rateCont{position: relative;border-radius: 5px; overflow: hidden; width: 74px; height: 13px; margin:-20px 0 0 0;}
+.itemTable .rateCont .rateBar{position: absolute;left: 0; top: 0; width: 0; height: 100%; background-color: #696f7a !important; transition:1s;}
+.itemTable .rateCont .rateBg{width:100%; height: 100%; display: inline-block; background-color: #181818 !important;}
